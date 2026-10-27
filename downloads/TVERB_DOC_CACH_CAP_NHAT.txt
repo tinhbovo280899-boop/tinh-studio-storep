@@ -1,0 +1,10 @@
+T-VERB 1.0.2 — GOI CAP NHAT MA NGUON
+
+1. Tai TVerb_1.0.2_Update.zip va giai nen.
+2. Chep NOI DUNG trong UPDATE_FILES vao thu muc nguon T-Verb goc
+   (noi co CMakeLists.txt), dong y thay file trung ten.
+3. Giu nguyen JUCE, resources, KhoaBanQuyen va config cua ban goc.
+4. Windows: chay BUILD_RELEASE.bat. Mac: dung script build dung kien truc.
+
+Goi cap nhat khong chua private key. Day la ma nguon, khong phai binary
+VST3/bo cai da bien dich. Doc SUA_LOI_1_0_2.md trong du an sau cap nhat.
