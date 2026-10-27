@@ -34,5 +34,17 @@
     "linux_vst3_build": "passed",
     "tests": "97 engine cases; independent 16x peak verification; wrapper tests passed",
     "native_windows_mac": "not run"
+  },
+  {
+    "archive": "T-AutoTune_LIVE_V8_1_0_FIXED_WIN_MAC_SOURCE.zip",
+    "bytes": 27292205,
+    "sha256": "44c34fba051e8df6c770636087c12d4a9410ab4c75f9ed7f2d1578385244991c",
+    "changed_or_added_files": 32,
+    "removed_files": 30,
+    "private_files_omitted": 3,
+    "linux_vst3_build": "passed",
+    "ctest": "2/2 passed; standalone DSP-only 1/1 passed",
+    "native_windows_mac": "not run",
+    "edition": "live: legacy Graph, Classic, LPC Formant/Throat, Transpose and Synthetic Vibrato inactive"
   }
 ]
