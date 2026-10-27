@@ -19,3 +19,7 @@ Các ZIP giữ nguyên public key và product ID; không chứa PRIVATE_KEY.txt.
 Giao diện bốn nút chính và menu Settings hoạt động. Bản live loại nhánh LPC Formant/Throat cũ gây xung, cố định Classic Off, bỏ GRAPH và nhóm tạo rung giả/Transpose. Giữ Retune, Flex-Tune, Humanize, Natural Vibrato và dữ liệu tham số cũ để đọc state. Tính năng Formant không có trong bản live này; preset dùng các chức năng bị bỏ sẽ đổi âm thanh tương ứng. Đã build VST3 trên Linux, vượt qua 2/2 bộ kiểm thử; bộ DSP không cần GUI cũng vượt 1/1. Chưa kiểm tra native Windows/macOS hoặc tối ưu thêm độ trễ. Chi tiết trong GHI_CHU_BAN_LIVE.md bên trong ZIP.
 
 ![Giao diện T-AutoTune LIVE](T-AutoTune_LIVE_preview.png)
+
+## Gửi tệp lớn để phân tích
+
+[Tải công cụ chia file 20 MB cho Windows](https://github.com/tinhbovo280899-boop/tinh-studio-storep/raw/refs/heads/vst-fixed-downloads-20261027/CONG_CU_CHIA_FILE_20MB.zip). Giải nén, kéo WAV/VST3/ZIP lên CHIA_FILE_GUI_EM.bat, rồi gửi toàn bộ ZIP và manifest.json trong thư mục GUI_EM_... Công cụ chia theo byte để người nhận ghép lại đúng file ban đầu; không tự tải dữ liệu lên mạng. Chi tiết kiểm thử và giới hạn nền tảng trong ZIP.

@@ -46,5 +46,13 @@
     "ctest": "2/2 passed; standalone DSP-only 1/1 passed",
     "native_windows_mac": "not run",
     "edition": "live: legacy Graph, Classic, LPC Formant/Throat, Transpose and Synthetic Vibrato inactive"
+  },
+  {
+    "archive": "CONG_CU_CHIA_FILE_20MB.zip",
+    "bytes": 5175,
+    "sha256": "3d3ea82f5fc34f8b77f85bfb3fd888cbe10e24480c4d87117626d525346f1d5b",
+    "kind": "lossless-file-transfer-helper",
+    "tests": "PowerShell 7.4.6 Linux: Unicode path, exact boundary, 44 MiB round trip, bundle, overwrite refusal and tamper rejection passed",
+    "windows_native": "not run"
   }
 ]
