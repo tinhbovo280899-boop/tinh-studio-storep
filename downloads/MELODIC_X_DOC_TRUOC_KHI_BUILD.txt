@@ -1,0 +1,9 @@
+MELODIC X 3.0.6 — AUTO C++
+
+Tai ZIP, giai nen va chep NOI DUNG UPDATE_FILES de vao du an goc.
+Phai chep ca tools/windows.ps1 va tools/windows_toolchain.ps1.
+
+Goi nay sua phan tu tim compiler, da qua 42 kiem tra PowerShell mo phong.
+CHUA THE XAC NHAN BUILD PLUGIN: CMakeLists.txt da gui chua co cac target
+MelodicX_VST3/Keygen. Can ma nguon de bo sung phan CMake con thieu.
+Xem AUTO_CPP_MELODIC_X.md. Khong co private key hay binary trong ZIP.
