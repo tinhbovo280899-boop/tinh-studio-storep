@@ -1,0 +1,22 @@
+[
+  {
+    "file": "Liquid_Delays_II_2.7.1_DSP_Fixed_Source_WIN_MAC.zip",
+    "root": "LIQUID_DELAYS_II_V2_7_1_DSP_FIXED_WIN_MAC",
+    "bytes": 27530788,
+    "sha256": "24fe1301ca708c1c7cfb9cce97eee9af9161d9da4b9967913692e23a408459b1",
+    "entries": 4471,
+    "crc_ok": true,
+    "manifest_ok": true,
+    "owner_secrets_excluded": true
+  },
+  {
+    "file": "Pantheon_II_1.0.1_DSP_Fixed_Source_WIN_MAC.zip",
+    "root": "PANTHEON_II_V1_0_1_DSP_FIXED_WIN_MAC",
+    "bytes": 27538082,
+    "sha256": "1f6566ff81bdafd27e99d38a464ef1526d19b0dedf762da2d9f17986ff7e6df9",
+    "entries": 4472,
+    "crc_ok": true,
+    "manifest_ok": true,
+    "owner_secrets_excluded": true
+  }
+]
