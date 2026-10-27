@@ -1,10 +1,10 @@
-T-VERB 1.0.2 — GOI CAP NHAT MA NGUON
+T-VERB 1.0.2 — CAP NHAT AUTO C++
 
-1. Tai TVerb_1.0.2_Update.zip va giai nen.
-2. Chep NOI DUNG trong UPDATE_FILES vao thu muc nguon T-Verb goc
-   (noi co CMakeLists.txt), dong y thay file trung ten.
-3. Giu nguyen JUCE, resources, KhoaBanQuyen va config cua ban goc.
-4. Windows: chay BUILD_RELEASE.bat. Mac: dung script build dung kien truc.
+Tai TVerb_1.0.2_AutoCPP_Update.zip, giai nen va chep NOI DUNG
+trong UPDATE_FILES de vao du an goc (noi co CMakeLists.txt).
+Sau do chay lai 4_BUILD_VA_TAO_BO_CAI.bat hoac file BAT da dung.
 
-Goi cap nhat khong chua private key. Day la ma nguon, khong phai binary
-VST3/bo cai da bien dich. Doc SUA_LOI_1_0_2.md trong du an sau cap nhat.
+Script tu tim Visual Studio/Build Tools C++ 2019/2022/2026 ma CMake
+ho tro. VS 2026 can CMake 4.2+. Neu thieu compiler/SDK thi can cai them.
+Giu nguyen JUCE, resources, KhoaBanQuyen va config. Khong xoa build cu.
+Khong chua private key. Day la ma nguon, khong phai binary da bien dich.
