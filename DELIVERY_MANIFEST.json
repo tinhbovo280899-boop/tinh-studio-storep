@@ -18,5 +18,21 @@
     "linux_vst3_build": "passed",
     "ctest": "3/3 passed",
     "native_windows_mac": "not run"
+  },
+  {
+    "archive": "1176_LN_3D_V1_0_0_FIXED_WIN_MAC_SOURCE.zip",
+    "bytes": 27291104,
+    "sha256": "f6b52c17e5c47d24d84430765c79542b7c2a22a67598cddc7d2e411f142c890c",
+    "linux_vst3_build": "passed",
+    "tests": "2/2 passed",
+    "native_windows_mac": "not run"
+  },
+  {
+    "archive": "T-Limiter_V1_0_0_FIXED_WIN_MAC_SOURCE.zip",
+    "bytes": 128385,
+    "sha256": "5cd543f567498ffc64697d8f5d44dbf8e2fe84d44399512c54edad5032d38afc",
+    "linux_vst3_build": "passed",
+    "tests": "97 engine cases; independent 16x peak verification; wrapper tests passed",
+    "native_windows_mac": "not run"
   }
 ]
