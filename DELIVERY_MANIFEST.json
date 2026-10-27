@@ -37,8 +37,8 @@
   },
   {
     "archive": "T-AutoTune_LIVE_V8_1_0_FIXED_WIN_MAC_SOURCE.zip",
-    "bytes": 27292205,
-    "sha256": "44c34fba051e8df6c770636087c12d4a9410ab4c75f9ed7f2d1578385244991c",
+    "bytes": 27256472,
+    "sha256": "c19e55b553129f6b561f1c68bb9e1fd61c577fafd77b25b35306fe0795cdc78d",
     "changed_or_added_files": 32,
     "removed_files": 30,
     "private_files_omitted": 3,
