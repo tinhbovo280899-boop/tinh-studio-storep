@@ -98,5 +98,23 @@
     "edition": "FX Send fixes; original character retained where unchanged",
     "changed_or_added_files": 14,
     "private_key_files_omitted": 0
+  },
+  {
+    "archive": "TStudio_Free_FX_Bundle_WIN_MAC_SOURCE.zip",
+    "bytes": 31215017,
+    "sha256": "2a23ef243b7dad549ddfed069dbf8d9b3f981803abf59b18ddd44eb892b7cfe7",
+    "kind": "free-source-bundle",
+    "plugins": [
+      "T-Verb",
+      "T-RVerb",
+      "PANTHEON II",
+      "LIQUID Delays II"
+    ],
+    "activation": "removed from application source, UI and build targets",
+    "linux_vst3_build": "4/4 passed",
+    "tests": "13 plugin tests + 2 bundle tests passed; clean shared JUCE SDK bootstrap passed",
+    "dsp": "unchanged from fixed baseline; plugin CIDs preserved",
+    "native_windows_mac_installers": "not run; Windows Inno Setup and macOS pkgbuild workflows provided",
+    "private_key_files": 0
   }
 ]
