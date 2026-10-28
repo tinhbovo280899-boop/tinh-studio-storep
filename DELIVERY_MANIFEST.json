@@ -116,5 +116,26 @@
     "dsp": "unchanged from fixed baseline; plugin CIDs preserved",
     "native_windows_mac_installers": "not run; Windows Inno Setup and macOS pkgbuild workflows provided",
     "private_key_files": 0
+  },
+  {
+    "archive": "TStudio_6_VST_Bundle_V1_0_1_FIXED_WIN_MAC_SOURCE.zip",
+    "bytes": 18083618,
+    "sha256": "2c0dd49b53e9c45d5b7508b49196a39fcfa1c2f9066340852d21915deba248a0",
+    "changed_or_added_files": 68,
+    "plugins": [
+      "Kaleidoscopes",
+      "T-API550",
+      "T-ConsoleEQ",
+      "T-HDelay",
+      "T-NS1",
+      "T-Vitamin"
+    ],
+    "linux_vst3_build": "6/6 passed",
+    "ctest": "12/12 passed",
+    "native_vst3_smoke": "36 cases passed",
+    "engine_sanitizers": "135 checks passed",
+    "windows_mac_native": "not run; source workflows supplied",
+    "edition": "free; no activation; six separate VST3 effects",
+    "kind": "fixed-source-bundle"
   }
 ]

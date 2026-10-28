@@ -56,3 +56,12 @@ Giao diện bốn nút chính và menu Settings hoạt động. Bản live loạ
 ## Gửi tệp lớn để phân tích
 
 [Tải công cụ chia file 20 MB cho Windows](https://github.com/tinhbovo280899-boop/tinh-studio-storep/raw/refs/heads/vst-fixed-downloads-20261027/CONG_CU_CHIA_FILE_20MB.zip). Giải nén, kéo WAV/VST3/ZIP lên CHIA_FILE_GUI_EM.bat, rồi gửi toàn bộ ZIP và manifest.json trong thư mục GUI_EM_... Công cụ chia theo byte để người nhận ghép lại đúng file ban đầu; không tự tải dữ liệu lên mạng. Chi tiết kiểm thử và giới hạn nền tảng trong ZIP.
+
+
+## T Studio 6 VST Bundle 1.0.1
+
+[Tải gói sáu VST đã sửa](https://github.com/tinhbovo280899-boop/tinh-studio-storep/raw/refs/heads/vst-fixed-downloads-20261027/TStudio_6_VST_Bundle_V1_0_1_FIXED_WIN_MAC_SOURCE.zip).
+
+Gồm Kaleidoscopes, T-API550, T-ConsoleEQ, T-HDelay, T-NS1 và T-Vitamin, vẫn là sáu VST3 riêng trong một quy trình tạo bộ cài. Sửa DC của CLA-2A, buffer MetaFlanger, khởi tạo/reset/tail HDelay, cấp phát audio callback Vitamin và lưu preset/profile NS1. Giữ mức khử Gentle và hành vi Solo Vitamin; chi tiết tiêu chí kiểm thử nằm trong ZIP.
+
+Đã build cả sáu VST3 trên Linux, qua 12/12 nhóm CTest, 135 kiểm tra engine với sanitizer và 36 ca nạp/xử lý native mono/stereo. Mã nhận dạng plugin và khai báo tham số được giữ nguyên. Đây là mã nguồn miễn kích hoạt kèm script tạo bộ cài, chưa có EXE/PKG Windows/macOS đã biên dịch hoặc kiểm tra native. Chạy 1_BUILD_VA_TAO_BO_CAI_WINDOWS.bat hoặc 1_BUILD_VA_TAO_BO_CAI_MAC.command trên máy đích. Xem README, GHI_CHU_BAN_SUA_1_0_1.md và VALIDATION.txt trong gói.
