@@ -54,5 +54,49 @@
     "kind": "lossless-file-transfer-helper",
     "tests": "PowerShell 7.4.6 Linux: Unicode path, exact boundary, 44 MiB round trip, bundle, overwrite refusal and tamper rejection passed",
     "windows_native": "not run"
+  },
+  {
+    "archive": "T-RVerb_V1_0_0_FIXED_WIN_MAC_SOURCE.zip",
+    "bytes": 52360,
+    "sha256": "14212faf3e429a1378a0fdce7f516c0fc5152dd09f871fce9f92f555656f1a98",
+    "linux_vst3_build": "passed",
+    "ctest": "2/2 passed",
+    "native_windows_mac": "not run",
+    "edition": "FX Send fixes; original character retained where unchanged",
+    "changed_or_added_files": 19,
+    "private_key_files_omitted": 0
+  },
+  {
+    "archive": "T-Verb_V1_0_0_FX_SEND_FIXED_WIN_MAC_SOURCE.zip",
+    "bytes": 30708256,
+    "sha256": "d9390850987120e5301c0f006e50f6db6e106054a5f1a83a4dc35fd8fb377d58",
+    "linux_vst3_build": "passed",
+    "ctest": "7/7 passed",
+    "native_windows_mac": "not run",
+    "edition": "FX Send fixes; original character retained where unchanged",
+    "changed_or_added_files": 7,
+    "private_key_files_omitted": 0
+  },
+  {
+    "archive": "PANTHEON_II_V1_0_0_FX_SEND_FIXED_WIN_MAC_SOURCE.zip",
+    "bytes": 27680743,
+    "sha256": "008533ad0cbab3ec3c660ba7d368f7e9454c0fe08c94ebe3b340cf1f0a46da22",
+    "linux_vst3_build": "passed",
+    "ctest": "3/3 passed",
+    "native_windows_mac": "not run",
+    "edition": "FX Send fixes; original character retained where unchanged",
+    "changed_or_added_files": 7,
+    "private_key_files_omitted": 0
+  },
+  {
+    "archive": "LIQUID_DELAYS_II_V2_7_0_FX_SEND_FIXED_WIN_MAC_SOURCE.zip",
+    "bytes": 27677242,
+    "sha256": "5ddc1695af178be634db67e53e837cb18b6a2e053ac1ec05bbe15d6736a1333b",
+    "linux_vst3_build": "passed",
+    "ctest": "4/4 passed",
+    "native_windows_mac": "not run",
+    "edition": "FX Send fixes; original character retained where unchanged",
+    "changed_or_added_files": 14,
+    "private_key_files_omitted": 0
   }
 ]
