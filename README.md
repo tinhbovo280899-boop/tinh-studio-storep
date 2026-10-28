@@ -65,3 +65,12 @@ Giao diện bốn nút chính và menu Settings hoạt động. Bản live loạ
 Gồm Kaleidoscopes, T-API550, T-ConsoleEQ, T-HDelay, T-NS1 và T-Vitamin, vẫn là sáu VST3 riêng trong một quy trình tạo bộ cài. Sửa DC của CLA-2A, buffer MetaFlanger, khởi tạo/reset/tail HDelay, cấp phát audio callback Vitamin và lưu preset/profile NS1. Giữ mức khử Gentle và hành vi Solo Vitamin; chi tiết tiêu chí kiểm thử nằm trong ZIP.
 
 Đã build cả sáu VST3 trên Linux, qua 12/12 nhóm CTest, 135 kiểm tra engine với sanitizer và 36 ca nạp/xử lý native mono/stereo. Mã nhận dạng plugin và khai báo tham số được giữ nguyên. Đây là mã nguồn miễn kích hoạt kèm script tạo bộ cài, chưa có EXE/PKG Windows/macOS đã biên dịch hoặc kiểm tra native. Chạy 1_BUILD_VA_TAO_BO_CAI_WINDOWS.bat hoặc 1_BUILD_VA_TAO_BO_CAI_MAC.command trên máy đích. Xem README, GHI_CHU_BAN_SUA_1_0_1.md và VALIDATION.txt trong gói.
+
+
+## T Studio 5 VST Bundle 1.0.1
+
+[Tải gói năm VST đã sửa](https://github.com/tinhbovo280899-boop/tinh-studio-storep/raw/refs/heads/vst-fixed-downloads-20261027/TStudio_5_VST_Bundle_V1_0_1_FIXED_WIN_MAC_SOURCE.zip).
+
+Gồm T-BE, T-Comp, T-DeNoise, T-EQ và T-Pitch. Sửa state/profile, đổi sample rate, Learn im lặng và reset DeNoise; reset Pitch; bypass/reset của Comp/EQ; đọc key/scale đồng bộ cho BE. Giữ mã nhận dạng và khai báo tham số của cả năm.
+
+Đã build 5/5 VST3 trên Linux, qua 10/10 nhóm kiểm thử (giữ nguyên tiêu chí test gốc), 30 ca VST3 native mono/stereo, và kiểm tra DeNoise với ASAN/UBSAN. Đây là ZIP mã nguồn kèm script build/test/tạo bộ cài; Windows/macOS native, EXE/PKG và DAW thật chưa được kiểm tra. Chạy 1_BUILD_VA_TAO_BO_CAI_WINDOWS.bat hoặc bản .command cho Mac. Profile DeNoise cũ không lưu sample rate nên cần Learn lại nếu đổi sample rate. Xem README, GHI_CHU_BAN_SUA_1_0_1.md, VALIDATION.txt và báo cáo trong ZIP.

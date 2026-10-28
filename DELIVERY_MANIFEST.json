@@ -137,5 +137,32 @@
     "windows_mac_native": "not run; source workflows supplied",
     "edition": "free; no activation; six separate VST3 effects",
     "kind": "fixed-source-bundle"
+  },
+  {
+    "archive": "TStudio_5_VST_Bundle_V1_0_1_FIXED_WIN_MAC_SOURCE.zip",
+    "bytes": 12834739,
+    "sha256": "8826844ff376f6fc51765e39e5aa4b4291275336e8ef99f57a3650dc6b998d04",
+    "kind": "fixed-source-bundle",
+    "plugins": [
+      "T-BE",
+      "T-Comp",
+      "T-DeNoise",
+      "T-EQ",
+      "T-Pitch"
+    ],
+    "versions": {
+      "T-BE": "2.0.1",
+      "T-Comp": "2.1.3",
+      "T-DeNoise": "1.1.1",
+      "T-EQ": "2.0.3",
+      "T-Pitch": "1.1.1"
+    },
+    "linux_vst3_build": "5/5 passed",
+    "ctest": "10/10 passed; original assertions retained",
+    "native_vst3_smoke": "30 cases passed",
+    "DeNoise_ASAN_UBSAN": "15490 checks passed; framework Release objects not instrumented",
+    "windows_mac_native": "not run; source workflows supplied",
+    "changed_or_added_files": 61,
+    "activation": "none added; licenses retained"
   }
 ]
