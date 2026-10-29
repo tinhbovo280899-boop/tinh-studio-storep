@@ -96,3 +96,12 @@ Gồm T-DeEsser 1.0.1, T-RVox 1.0.1, Sonitus fx Reverb 3.0.1 và D82 Sonic Maxim
 Build mới cả bốn VST3 Linux, qua 8/8 nhóm CTest, 36 native VST3 cases và core mới với ASAN/UBSAN/float-cast-overflow. Giữ parameter/preset arrays và tuple CID của hai plugin mới; code hai plugin cũ khớp byte với ZIP đã phát hành. Script Windows/macOS tạo một bộ cài cho bốn VST3 riêng.
 
 Đây là ZIP mã nguồn kèm JUCE và script build/test/tạo bộ cài; chưa có VST3/EXE/PKG Windows/macOS đã biên dịch native. Chưa chạy native Windows/macOS hoặc vocal/DAW thật. Chạy 1_BUILD_VA_TAO_BO_CAI_WINDOWS.bat hoặc 1_BUILD_VA_TAO_BO_CAI_MAC.command. Với Reverb trên FX Send, bật Mute Dry. Chi tiết thay đổi âm thanh, GUI, giới hạn và checksum trong ZIP.
+
+
+## Rà vòng đời 23 VST / Cubase Windows — 30/10/2026
+
+[Tải báo cáo, bản vá menu T-EQ và tiện ích lấy thông tin Cubase](https://github.com/tinhbovo280899-boop/tinh-studio-storep/raw/refs/heads/vst-fixed-downloads-20261027/TStudio_23VST_LIFECYCLE_AUDIT_T_EQ_UI_PATCH.zip).
+
+Đã rà bốn ZIP Compressor (2), FX (4), Plugins (15), VocalPack (2). Không trùng mã/tên plugin trong các ZIP; cùng JUCE 8.0.12. Bộ thử Linux hoàn tất 184 vòng đời processor / 138 vòng đời editor, chưa tái hiện treo. Gia cố callback menu T-EQ bằng SafePointer; 216 kiểm tra vòng đời với ASAN/UBSan qua. Bản vá mã nguồn chỉ chạm UI T-EQ và version T-EQ 2.0.5, không đổi DSP/parameter IDs/chính sách bản quyền.
+
+**Chưa xác nhận nguyên nhân Cubase Windows treo, chưa sửa toàn bộ 23 VST, chưa có binary native mới.** ZIP có script PowerShell đọc phiên bản Cubase, metadata/hash VST3, event logs và danh sách dump; cần chạy trên máy Cubase rồi gửi kết quả trong cuộc trò chuyện để đối chiếu. Script không tự upload. T-AutoTune handoff/learn và thay đổi latency T-Comp/DeNoise/Pitch là các điểm cần xem tiếp; thông báo ở mức AudioProcessor không chứng minh gọi host đồng bộ vì JUCE VST3 đã có cơ chế chuyển luồng. Chi tiết và giới hạn trong DOC_TRUOC.md / Validation.

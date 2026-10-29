@@ -192,5 +192,19 @@
     "new_engine_sanitizers": "ASAN/UBSAN/float-cast-overflow passed",
     "product_embedded_brand_assets": "removed",
     "native_windows_mac": "not run; source and build/installer scripts only"
+  },
+  {
+    "archive": "TStudio_23VST_LIFECYCLE_AUDIT_T_EQ_UI_PATCH.zip",
+    "bytes": 36181,
+    "sha256": "5d4409afe3b4b36ca72d0da65b7b59d286f03d93cea07777278fe19ec075d1b1",
+    "input_bundles": 4,
+    "plugins": 23,
+    "processor_lifecycle_cycles": 184,
+    "editor_lifecycle_cycles": 138,
+    "eq_ui_lifetime_checks": 216,
+    "includes": "Audit report, logs, targeted T-EQ source patch to 2.0.5, read-only Windows diagnostics",
+    "windows_cubase_reproduction": "not reproduced; native platform unavailable",
+    "full_suite_repair": "not claimed",
+    "native_windows_mac": "not built/tested"
   }
 ]
