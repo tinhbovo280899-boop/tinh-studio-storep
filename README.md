@@ -85,3 +85,14 @@ Sửa Split/stereo/Monitor/headroom của DeEsser; đường cong nén đơn đi
 DeEsser thêm FIR 64 mẫu tại 48 kHz; RVox cũng 64 mẫu. Tổng riêng hai plugin khoảng 2.67 ms ở 48 kHz. 5/5 nhóm CTest, 12 ca VST3 native Linux, core ASAN/UBSAN, 135 ca limiter và 24 ca plugin đo lại peak độc lập 16× đều qua. Test gốc RVox không sửa; DeEsser chỉ cập nhật kỳ vọng latency, giữ tiêu chí âm thanh.
 
 ZIP là mã nguồn kèm JUCE/build/test/script tạo EXE hoặc PKG; chưa có bộ cài/plugin Windows/macOS đã biên dịch. Native Windows/macOS và vocal/DAW thật chưa được thử. Chạy 1_BUILD_VA_TAO_BO_CAI_WINDOWS.bat hoặc 1_BUILD_VA_TAO_BO_CAI_MAC.command trên máy tương ứng. Chi tiết và checksum trong README/Validation của ZIP.
+
+
+## Vocal FX 4 VST Bundle 1.1.0
+
+[Tải gói bốn VST đã sửa — khoảng 12 MB](https://github.com/tinhbovo280899-boop/tinh-studio-storep/raw/refs/heads/vst-fixed-downloads-20261027/TStudio_Vocal_FX_4_VST_Bundle_V1_1_0_FIXED_WIN_MAC_SOURCE.zip).
+
+Gồm T-DeEsser 1.0.1, T-RVox 1.0.1, Sonitus fx Reverb 3.0.1 và D82 Sonic Maximizer 2.4.1. Hai plugin đầu giữ nguyên bản sửa trước. Reverb sửa Low Cut/Decay, delay modulation, mono routing, reset/tail, preset/A-B; Sonic Maximizer sửa sample-rate thấp, sample/parameter guard, chuyển Process/nút xoay, bypass/meter/reset/state. Đã bỏ ảnh/logo/filmstrip nhúng và dùng UI vẽ bằng mã cho hai plugin mới.
+
+Build mới cả bốn VST3 Linux, qua 8/8 nhóm CTest, 36 native VST3 cases và core mới với ASAN/UBSAN/float-cast-overflow. Giữ parameter/preset arrays và tuple CID của hai plugin mới; code hai plugin cũ khớp byte với ZIP đã phát hành. Script Windows/macOS tạo một bộ cài cho bốn VST3 riêng.
+
+Đây là ZIP mã nguồn kèm JUCE và script build/test/tạo bộ cài; chưa có VST3/EXE/PKG Windows/macOS đã biên dịch native. Chưa chạy native Windows/macOS hoặc vocal/DAW thật. Chạy 1_BUILD_VA_TAO_BO_CAI_WINDOWS.bat hoặc 1_BUILD_VA_TAO_BO_CAI_MAC.command. Với Reverb trên FX Send, bật Mute Dry. Chi tiết thay đổi âm thanh, GUI, giới hạn và checksum trong ZIP.
