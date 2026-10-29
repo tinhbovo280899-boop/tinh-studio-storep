@@ -74,3 +74,14 @@ Gồm Kaleidoscopes, T-API550, T-ConsoleEQ, T-HDelay, T-NS1 và T-Vitamin, vẫn
 Gồm T-BE, T-Comp, T-DeNoise, T-EQ và T-Pitch. Sửa state/profile, đổi sample rate, Learn im lặng và reset DeNoise; reset Pitch; bypass/reset của Comp/EQ; đọc key/scale đồng bộ cho BE. Giữ mã nhận dạng và khai báo tham số của cả năm.
 
 Đã build 5/5 VST3 trên Linux, qua 10/10 nhóm kiểm thử (giữ nguyên tiêu chí test gốc), 30 ca VST3 native mono/stereo, và kiểm tra DeNoise với ASAN/UBSAN. Đây là ZIP mã nguồn kèm script build/test/tạo bộ cài; Windows/macOS native, EXE/PKG và DAW thật chưa được kiểm tra. Chạy 1_BUILD_VA_TAO_BO_CAI_WINDOWS.bat hoặc bản .command cho Mac. Profile DeNoise cũ không lưu sample rate nên cần Learn lại nếu đổi sample rate. Xem README, GHI_CHU_BAN_SUA_1_0_1.md, VALIDATION.txt và báo cáo trong ZIP.
+
+
+## Vocal Dynamics Bundle 1.0.1 — T-DeEsser và T-RVox
+
+[Tải gói hai VST đã sửa, khoảng 12 MB](https://github.com/tinhbovo280899-boop/tinh-studio-storep/raw/refs/heads/vst-fixed-downloads-20261027/TStudio_Vocal_Dynamics_DeEsser_RVox_V1_0_1_FIXED_WIN_MAC_SOURCE.zip).
+
+Sửa Split/stereo/Monitor/headroom của DeEsser; đường cong nén đơn điệu, nội suy true-peak và lookahead limiter của RVox; reset, guard mẫu lỗi, preset và bypass của cả hai. Đã bỏ logo vẽ bằng mã trong giao diện, giữ tên/ID/tham số và preset cũ. Một bộ build và một bộ cài cho hai VST3 riêng.
+
+DeEsser thêm FIR 64 mẫu tại 48 kHz; RVox cũng 64 mẫu. Tổng riêng hai plugin khoảng 2.67 ms ở 48 kHz. 5/5 nhóm CTest, 12 ca VST3 native Linux, core ASAN/UBSAN, 135 ca limiter và 24 ca plugin đo lại peak độc lập 16× đều qua. Test gốc RVox không sửa; DeEsser chỉ cập nhật kỳ vọng latency, giữ tiêu chí âm thanh.
+
+ZIP là mã nguồn kèm JUCE/build/test/script tạo EXE hoặc PKG; chưa có bộ cài/plugin Windows/macOS đã biên dịch. Native Windows/macOS và vocal/DAW thật chưa được thử. Chạy 1_BUILD_VA_TAO_BO_CAI_WINDOWS.bat hoặc 1_BUILD_VA_TAO_BO_CAI_MAC.command trên máy tương ứng. Chi tiết và checksum trong README/Validation của ZIP.

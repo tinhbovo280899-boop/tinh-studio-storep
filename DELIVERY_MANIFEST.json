@@ -164,5 +164,16 @@
     "windows_mac_native": "not run; source workflows supplied",
     "changed_or_added_files": 61,
     "activation": "none added; licenses retained"
+  },
+  {
+    "archive": "TStudio_Vocal_Dynamics_DeEsser_RVox_V1_0_1_FIXED_WIN_MAC_SOURCE.zip",
+    "bytes": 12233977,
+    "sha256": "c8a3d99754cb8bde559cc2058baf8cb088cd214546f9c16243e96ca47c26a64d",
+    "linux_native_vst3_build": "2/2 passed",
+    "ctest": "5/5 passed",
+    "native_vst3_smoke_cases": 12,
+    "independent_16x_cases": 159,
+    "own_brand_artwork": "removed (code-drawn header logo; no embedded image/font assets)",
+    "native_windows_mac": "not run; source and build/installer scripts only"
   }
 ]
