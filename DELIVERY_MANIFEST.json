@@ -206,5 +206,27 @@
     "windows_cubase_reproduction": "not reproduced; native platform unavailable",
     "full_suite_repair": "not claimed",
     "native_windows_mac": "not built/tested"
+  },
+  {
+    "archive": "TStudio_LICENSE_AUTOTUNE_IO_FIX_PATCH_20261030.zip",
+    "bytes": 92554,
+    "sha256": "5d1a3ef2e73b8903f5c3740e0e2fbe565bc0054bcb058c73a10b7481897e6c68",
+    "source_bundles": 4,
+    "changed_files": 15,
+    "license_policy_tests": "68 original checks passed",
+    "license_backoff_critical_tests": "130 passed; partial ASAN/UBSan",
+    "handoff_tests": "66 passed",
+    "processor_lifecycle_cycles": 40,
+    "processor_lifecycle_products": [
+      "T-AutoTune",
+      "T-AutoKey",
+      "T-1176",
+      "T-Verb",
+      "T-BE"
+    ],
+    "scope": "trial repair I/O backoff, monotonic worker scheduling, bounded current-user AutoTune handoff reader",
+    "native_windows_mac": "not built/tested",
+    "cubase_15_actual_hang": "not yet reproduced on user system",
+    "delivery": "targeted source overlay with guarded Windows applier; rebuild required"
   }
 ]

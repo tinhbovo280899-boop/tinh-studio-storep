@@ -105,3 +105,14 @@ Build mới cả bốn VST3 Linux, qua 8/8 nhóm CTest, 36 native VST3 cases và
 Đã rà bốn ZIP Compressor (2), FX (4), Plugins (15), VocalPack (2). Không trùng mã/tên plugin trong các ZIP; cùng JUCE 8.0.12. Bộ thử Linux hoàn tất 184 vòng đời processor / 138 vòng đời editor, chưa tái hiện treo. Gia cố callback menu T-EQ bằng SafePointer; 216 kiểm tra vòng đời với ASAN/UBSan qua. Bản vá mã nguồn chỉ chạm UI T-EQ và version T-EQ 2.0.5, không đổi DSP/parameter IDs/chính sách bản quyền.
 
 **Chưa xác nhận nguyên nhân Cubase Windows treo, chưa sửa toàn bộ 23 VST, chưa có binary native mới.** ZIP có script PowerShell đọc phiên bản Cubase, metadata/hash VST3, event logs và danh sách dump; cần chạy trên máy Cubase rồi gửi kết quả trong cuộc trò chuyện để đối chiếu. Script không tự upload. T-AutoTune handoff/learn và thay đổi latency T-Comp/DeNoise/Pitch là các điểm cần xem tiếp; thông báo ở mức AudioProcessor không chứng minh gọi host đồng bộ vì JUCE VST3 đã có cơ chế chuyển luồng. Chi tiết và giới hạn trong DOC_TRUOC.md / Validation.
+
+
+## Bản vá check bản quyền / AutoTune handoff — 30/10/2026
+
+[Tải bản vá mã nguồn cho bốn gói](https://github.com/tinhbovo280899-boop/tinh-studio-storep/raw/refs/heads/vst-fixed-downloads-20261027/TStudio_LICENSE_AUTOTUNE_IO_FIX_PATCH_20261030.zip).
+
+Sửa mirror trial không ghi được gây ghi lại mỗi giây; chờ 60 giây giữa các lần thử sửa, vẫn lưu thay đổi trạng thái quan trọng ngay. Worker dùng đồng hồ đơn điệu cho lịch kiểm tra, UTC thật cho ngày key/trial. AutoTune chỉ dò tài khoản hiện tại/đường dẫn đã cấu hình, ProgramData là fallback; không quét hồ sơ người dùng khác. Giới hạn handoff 256 KiB cả lúc stat lẫn read. Fixture 64 MB làm vòng UI gốc timeout 15 giây; bản vá bỏ qua file và vòng 600 ms hoàn tất bình thường. Đây là fixture tổng hợp, chưa phải file từ máy Cubase của người dùng.
+
+68 kiểm tra chính sách bản quyền gốc, 130 hồi quy với partial ASAN/UBSan, 66 kiểm tra handoff và 40 vòng đời processor trên năm đại diện đều qua Linux. DSP/parameter layout/processBlock AutoTune khớp byte; không đổi key/config, trial policy, IDs hoặc phiên bản sản phẩm. 15 file source overlay có SHA256, backup và script Apply-Fix.ps1. Tương thích bản vá menu T-EQ trước vì không chạm UI/CMake.
+
+Chưa có binary native mới, chưa xác nhận sửa đúng lần Cubase 15 Windows treo. Handoff I/O nhỏ vẫn ở constructor/prepare/timer; chưa chuyển toàn bộ sang worker. Timeout cưỡng bức stopThread và Learn/audio notification vẫn cần đối chiếu dump nếu tiếp tục treo. Các public_key.txt nguồn đều trống; bản vá giữ nguyên, cần dùng đúng public key của chủ dự án khi build. Đọc DOC_TRUOC.md trước khi áp dụng.
