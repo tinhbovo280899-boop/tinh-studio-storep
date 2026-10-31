@@ -1,3 +1,11 @@
+# Ba VST3 EQP1A / MEQ5 / Century — mã nguồn đã sửa, kèm BAT Windows
+
+[Tải ZIP đầy đủ — 34,1 MB](https://github.com/tinhbovo280899-boop/tinh-studio-storep/raw/refs/heads/vst-fixed-downloads-20261027/TStudio_3VST_EQP1A_MEQ5_Century_1.0.0_FIXED_WIN_SOURCE.zip). Gồm T-EQP1A, T-MEQ5 và T-Century, một cây JUCE, 171 preset và `1_BUILD_AND_EXPORT_WINDOWS.bat`. Giải nén đủ ZIP; cần Visual Studio/Build Tools C++ x64, Windows SDK và CMake 3.22+. File BAT build Release và xuất đủ ba thư mục VST3 vào `_EXPORT/Build-.../VST3`.
+
+Đã vá bộ nhớ filter khi cập nhật tham số của hai EQ, mono đảo cực của Century, kim GR/VU và kiểm tra dữ liệu không hợp lệ; bổ sung wrapper/giao diện native và lưu trạng thái. Ba VST3 đã build/chạy host trên Linux, các bộ regression và ASan/UBSan đạt. **ZIP chưa có VST3 Windows biên dịch sẵn; chưa chạy MSVC/Cubase 15 và chưa xác nhận giống UAD 100%.** [Báo cáo và giới hạn](TSTUDIO_3VST_EQP1A_MEQ5_CENTURY_1_0_0_REVIEW.md).
+
+---
+
 # Cập nhật FX 1.2.3 — vá reset PANTHEON và LIQUID
 
 [Tải ZIP mã nguồn bốn FX 1.2.3 — 18,6 MB](https://github.com/tinhbovo280899-boop/tinh-studio-storep/raw/refs/heads/vst-fixed-downloads-20261027/TStudio_FX_Bundle_1.2.3_RESET_FIXED_WIN_MAC_SOURCE.zip). Kèm JUCE/script build; chưa phải bộ cài Windows/macOS đã biên dịch. Giữ license của gói 1.2.2 và cần copy đúng public key trước khi build. 25 chương trình kiểm tra nguồn và hai bộ reset ASan/UBSan đạt. [Chi tiết thay đổi, phần còn cần cải thiện và giới hạn](TSTUDIO_FX_1_2_3_RESET_REVIEW.md).

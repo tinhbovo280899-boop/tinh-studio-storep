@@ -1,0 +1,84 @@
+{
+  "file": "TStudio_3VST_EQP1A_MEQ5_Century_1.0.0_FIXED_WIN_SOURCE.zip",
+  "bytes": 34093302,
+  "sha256": "65e56be9e54162c005978559e69d075ddada582cdcdf3a3773dbe436a334e159",
+  "source_manifest_files": 3396,
+  "archive_files": 3397,
+  "products": [
+    {
+      "target": "TEQP1A",
+      "short": "EQP1A",
+      "display_name": "T-EQP1A",
+      "code": "Tep1",
+      "bundle_id": "com.tstudio.eqp1a",
+      "resource_files": [
+        "Resources/pultec_atten_select.png",
+        "Resources/pultec_continuous_knob.png",
+        "Resources/pultec_eqp_1a_back.png",
+        "Resources/pultec_freq_switch_4_step.png",
+        "Resources/pultec_freq_switch_7_step.png",
+        "Resources/pultec_in_switch_V1.png",
+        "Resources/pultec_power_light_1.png",
+        "Resources/pultec_power_switch_270.png"
+      ],
+      "parameter_count": 11,
+      "factory_presets": 62,
+      "default_preset": 13,
+      "panel": [
+        950,
+        264
+      ]
+    },
+    {
+      "target": "TMEQ5",
+      "short": "MEQ5",
+      "display_name": "T-MEQ5",
+      "code": "Tme5",
+      "bundle_id": "com.tstudio.meq5",
+      "resource_files": [
+        "Resources/pultec_continuous_knob.png",
+        "Resources/pultec_freq_switch_11_step.png",
+        "Resources/pultec_freq_switch_5_step.png",
+        "Resources/pultec_in_switch_V2.png",
+        "Resources/pultec_meq_5_back.png",
+        "Resources/pultec_power_light_2.png",
+        "Resources/pultec_power_switch_270.png"
+      ],
+      "parameter_count": 9,
+      "factory_presets": 48,
+      "default_preset": 47,
+      "panel": [
+        950,
+        188
+      ]
+    },
+    {
+      "target": "TCentury",
+      "short": "Century",
+      "display_name": "T-Century",
+      "code": "Tcnt",
+      "bundle_id": "com.tstudio.century",
+      "resource_files": [
+        "Resources/tube_cs_background.png",
+        "Resources/tube_cs_knob.png",
+        "Resources/tube_cs_knob_chickenhead.png",
+        "Resources/tube_cs_knob_skirt.png",
+        "Resources/tube_cs_knob_sml.png",
+        "Resources/tube_cs_led_clip.png",
+        "Resources/tube_cs_led_green.png",
+        "Resources/tube_cs_needle_GR.png",
+        "Resources/tube_cs_needle_VU.png",
+        "Resources/tube_cs_switch_horizontal.png",
+        "Resources/tube_cs_switch_vertical.png"
+      ],
+      "parameter_count": 16,
+      "factory_presets": 61,
+      "default_preset": 60,
+      "panel": [
+        746,
+        508
+      ]
+    }
+  ],
+  "platform": "Windows x64 source build, native Linux validation passed; Windows/Cubase not executed"
+}
