@@ -157,3 +157,8 @@ Gồm T-Verb, T-RVerb, T-PANTHEON, T-LIQUID DELAY. PANTHEON có sáu voicing th�
 **ZIP là mã nguồn, chưa có VST3/EXE/PKG Windows/macOS đã biên dịch native; chưa chạy Cubase 15/ASIO hoặc nghe so vocal thật.** Dùng lại đúng config/public_key.txt của bộ đang cấp key khi build. Màu/đuôi vang thay đổi theo DSP đã sửa; rủi ro worker license kẹt I/O chưa được sửa trong lượt này. Xem TSTUDIO_FX_1_2_2_FUNCTION_FIXES.md và Validation trong ZIP.
 
 ![PANTHEON 1.2.2 — editor QA Linux](TSTUDIO_PANTHEON_1_2_2_QA.png)
+
+
+## Vintage 4 — rà lại độ vang và mức tác động 31/10/2026
+
+[Báo cáo T-PurePlate, T-Lex224, T-PultecEQ và T-VoxBox](TSTUDIO_VINTAGE4_WET_RESPONSE_REVIEW_20261031.md). 56 render impulse và 54 ca tone qua processor nguồn thực. T-PurePlate có bù wet theo Decay: từ 3 lên 5,5 s đuôi dài hơn nhưng năng lượng wet tổng trong bài thử chỉ tăng khoảng 0,05 dB. Chưa có render hãng để hiệu chuẩn và chưa sửa DSP trong lượt đo này; đây là báo cáo bổ sung, không phải ZIP plugin/bản vá mới.
