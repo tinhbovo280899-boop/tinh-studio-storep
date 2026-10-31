@@ -1,0 +1,45 @@
+{
+  "name": "TStudio_FX_Bundle_1.2.3_RESET_FIXED_WIN_MAC_SOURCE.zip",
+  "bytes": 18594559,
+  "sha256": "b2a3ad13a42fda8d06c08cd1a68751c0e2fe065b998c8b8634b5a28a877e31af",
+  "version": "1.2.3",
+  "files": 3365,
+  "date": "2026-10-31",
+  "products": [
+    "T-Verb",
+    "T-RVerb",
+    "T-PANTHEON",
+    "T-LIQUID DELAY"
+  ],
+  "scope": "Full source, JUCE and build scripts; Linux JUCE source QA, no native Windows/macOS binaries.",
+  "test_programs_passed": 25,
+  "test_programs_skipped": 0,
+  "new_pantheon_reset_cases": 24,
+  "new_liquid_host_reset_cases": 12,
+  "post_reset_maximum_fresh_difference": 0,
+  "baseline_1_2_2_fails_new_reset_suites": 2,
+  "asan_ubsan_suites_passed": 2,
+  "instrumentation": "Pantheon engine header and reset suite; Liquid processor source object and processor regression harness. JUCE/GUI/licensing objects are not instrumented; leak detection off.",
+  "license_checks_passed": 68,
+  "licensing_and_public_config_unchanged": true,
+  "private_owner_keys_included": false,
+  "parameter_ids_and_order_unchanged": {
+    "T-PANTHEON": 18,
+    "T-LIQUID DELAY": 30,
+    "T-Verb": 26,
+    "T-RVerb": 19
+  },
+  "reproduction_48000_hz": {
+    "queued_pre_delay_requested_ms": 150,
+    "first_wet_before_ms": 50.625,
+    "first_wet_after_and_fresh_ms": 150.625,
+    "liquid_old_tail_peak_before": 0.175000012,
+    "liquid_old_tail_peak_after": 0
+  },
+  "remaining_limits": [
+    "Level/Mix/Input/Echo step smoothing remains an improvement item",
+    "License blocked-I/O shutdown not reproduced or fixed",
+    "No native Cubase 15 Windows/ASIO/macOS/installer run or vocal listening comparison"
+  ],
+  "historical_measurements": "Validation/previous_1_2_2 is previous-release evidence, not new measurements"
+}

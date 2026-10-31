@@ -1,3 +1,9 @@
+# Cập nhật FX 1.2.3 — vá reset PANTHEON và LIQUID
+
+[Tải ZIP mã nguồn bốn FX 1.2.3 — 18,6 MB](https://github.com/tinhbovo280899-boop/tinh-studio-storep/raw/refs/heads/vst-fixed-downloads-20261027/TStudio_FX_Bundle_1.2.3_RESET_FIXED_WIN_MAC_SOURCE.zip). Kèm JUCE/script build; chưa phải bộ cài Windows/macOS đã biên dịch. Giữ license của gói 1.2.2 và cần copy đúng public key trước khi build. 25 chương trình kiểm tra nguồn và hai bộ reset ASan/UBSan đạt. [Chi tiết thay đổi, phần còn cần cải thiện và giới hạn](TSTUDIO_FX_1_2_3_RESET_REVIEW.md).
+
+---
+
 # T Studio Free FX Bundle — một gói gồm bốn VST3
 
 [Tải ZIP nguồn Free FX Bundle — khoảng 31 MB](https://github.com/tinhbovo280899-boop/tinh-studio-storep/raw/refs/heads/vst-fixed-downloads-20261027/TStudio_Free_FX_Bundle_WIN_MAC_SOURCE.zip)
