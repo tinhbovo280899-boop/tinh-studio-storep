@@ -1,0 +1,62 @@
+{
+  "file": "T-Studio_VocalPack_1.7.2_LIVE_FIXED_WIN_MAC_SOURCE.zip",
+  "bytes": 28832715,
+  "sha256": "f66aa934689f055afc5af44c4cfd329e6e9194d50d0a2b2a9e228b6d25c2bf62",
+  "entries": 4483,
+  "validation": {
+    "release": "1.7.2 Live",
+    "input": "T-Studio_VocalPack_1.7.1.zip",
+    "input_sha256": "316fff7a5667b0a052241f0033c7a82fd6de4c62c70b77e2a168699786d16044",
+    "dsp_signal_control_cases": 89,
+    "rendered_pitch_cases": 32,
+    "max_pitch_error_cents": 1.9680109645457715,
+    "processor_editor_cycles_linux": 8,
+    "sanitizers": "ASan + UBSan, standalone DSP only",
+    "neutral_latency_samples": {
+      "44100": 88,
+      "48000": 96,
+      "96000": 192,
+      "192000": 384
+    },
+    "neutral_mix_max_error": 0,
+    "parameter_ids_preserved": 26,
+    "old_presets_preserved": 12,
+    "autokey_license_public_key_unchanged": true,
+    "native_windows_macos_build": false,
+    "cubase_windows_tested": false,
+    "real_vocal_listening_ab": false,
+    "latency_scope": "Nominal neutral-path latency. Pitch-period splicing, ASIO, interface and other plugins can add effective delay.",
+    "changed_existing_files": [
+      {
+        "path": "AutoTune/Source/TAutoTuneEditor.cpp",
+        "before": "e04c4e875e33271a4c024598e96b07167d412dce32d76419f15d3bcc69426474",
+        "after": "7b952d30e6f15044ce5aec829e11ec1a21b6d9ccafa0a45ec1bc0faa8d30a00a"
+      },
+      {
+        "path": "AutoTune/Source/TAutoTuneEditor.h",
+        "before": "fafb50e6b57d067c0ef9b5372629ff65bb7716ae58eda23b7bb577a0ac62461f",
+        "after": "676b1689847738ec693379de299e77cf794fc82b6f33a1b67e260ff1cddb491c"
+      },
+      {
+        "path": "AutoTune/Source/TAutoTuneProcessor.cpp",
+        "before": "de25307670cf1fc9d0bcf73b1734873f086303083c78bfc23abca667ae08d22c",
+        "after": "6360b646d3c067149b953667a87eda98a98380f7d3a29e05d123cb5a85448358"
+      },
+      {
+        "path": "AutoTune/Source/TAutoTuneProcessor.h",
+        "before": "2713400662ff3059b66ddb2f8d3d89311195a433b8837f5db7adb6747be7aa55",
+        "after": "61c246284454fac174ceeaed7271cbbcf7c9a9b3a6ac84d3058fae36f4f44cee"
+      },
+      {
+        "path": "README.md",
+        "before": "db271a1e608fe0c849eb51285e8002ad589b40b4bb42eaca7afbb377f7b363be",
+        "after": "7e9b4c8b85e33147649f7c32b5166f61c45262338fe1a8fc89100776f7c38bc2"
+      },
+      {
+        "path": "ThuongHieu.json",
+        "before": "ec7005e638c191f4771a521fce66575d777c80d9692ba3c4539defe5ab261491",
+        "after": "af727b1309e33f137ab83df0b0d9b2bf0e4664c7a39aa931027d71ffbdf76e5a"
+      }
+    ]
+  }
+}
