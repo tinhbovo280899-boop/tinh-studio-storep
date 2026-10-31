@@ -138,3 +138,16 @@ Lượt trước tập trung độ ổn định; lượt này đo thêm 561 tham
 RVox Comp=0, Vitamin Drive=0 và Pitch shift=0 là cấu hình trung tính; đã đo được tác động khi chỉnh đúng điều kiện. 116 tham số ít/không đổi ở default có tác động trong ngữ cảnh bổ sung. AutoKey chủ ý truyền audio nguyên dạng để phân tích key/scale. Các mục không đổi trong harness chưa tự chứng minh lỗi.
 
 **Gói này là báo cáo bổ sung, không phải bản DSP đã sửa. Các phát hiện mới chưa nằm trong ZIP vá 5 file trước.** Chưa chạy binary Windows/Cubase 15 hoặc nghe vocal thật đợt này. Chi tiết phép đo, giới hạn và hash trong ZIP/TSTUDIO_31VST_FUNCTION_AUDIT_PANTHEON_20261031.md.
+
+
+## T Studio FX Bundle 1.2.2 — sửa chức năng vang/HD, 31/10/2026
+
+[Tải ZIP mã nguồn đầy đủ kèm JUCE và script build](https://github.com/tinhbovo280899-boop/tinh-studio-storep/raw/refs/heads/vst-fixed-downloads-20261027/TStudio_FX_Bundle_1.2.2_FUNCTION_FIXED_WIN_MAC_SOURCE.zip).
+
+Gồm T-Verb, T-RVerb, T-PANTHEON, T-LIQUID DELAY. PANTHEON có sáu voicing thật trên mạng Chamber đang có, RT60 suy hao theo độ dài từng delay/allpass, Damping/Bass shelf hoạt động đúng dải, chuyển đầu đọc mượt và FX SEND wet-only. Project cũ thiếu cờ routing mở ở Insert, giữ Mix đã lưu. LIQUID có bộ lọc HD TPT thực; HD tắt khớp nguồn Classic cũ từng mẫu trong 18 ca. T-Verb kèm guard NaN đã gửi trước; engine T-Verb/T-RVerb giữ nguyên.
+
+24 chương trình test nguồn, 68 kiểm tra license, hai bộ DSP ASan/UBSan đều qua Linux/JUCE 8.0.12. Default RT60 2.03 s đo dải 1 kHz khoảng 2.030545 s, trước sửa 1.027120 s; có thêm 81 số đo vang ngắn, sai lệch lớn nhất khoảng 12.7% ở 0.1 s/Room Size 76 m. Giữ ID/thứ tự tham số và mã license/public config; không có private key. Sáu voicing không phải xác nhận sáu thuật toán của hãng.
+
+**ZIP là mã nguồn, chưa có VST3/EXE/PKG Windows/macOS đã biên dịch native; chưa chạy Cubase 15/ASIO hoặc nghe so vocal thật.** Dùng lại đúng config/public_key.txt của bộ đang cấp key khi build. Màu/đuôi vang thay đổi theo DSP đã sửa; rủi ro worker license kẹt I/O chưa được sửa trong lượt này. Xem TSTUDIO_FX_1_2_2_FUNCTION_FIXES.md và Validation trong ZIP.
+
+![PANTHEON 1.2.2 — editor QA Linux](TSTUDIO_PANTHEON_1_2_2_QA.png)

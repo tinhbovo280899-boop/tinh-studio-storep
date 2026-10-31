@@ -1,0 +1,14 @@
+{
+  "name": "TStudio_FX_Bundle_1.2.2_FUNCTION_FIXED_WIN_MAC_SOURCE.zip",
+  "bytes": 18544408,
+  "sha256": "8dc3c0c96c918d12be305612e2cd3497f6d43e0fc23fde92302a1211e743f135",
+  "version": "1.2.2",
+  "source_files": 3318,
+  "products": [
+    "T-Verb",
+    "T-RVerb",
+    "T-PANTHEON",
+    "T-LIQUID DELAY"
+  ],
+  "scope": "Full source and original JUCE/build scripts; Linux source QA only, no native Windows/macOS binaries or installer execution."
+}
