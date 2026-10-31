@@ -1,0 +1,9 @@
+{
+  "name": "TStudio_31VST_AUDIT_SOURCE_FIXES_20261031.zip",
+  "bytes": 142483,
+  "sha256": "0e68b2d25f0f3fe396ded72ea4b331ee8c4b3a5599db385e3a019a79a1cae079",
+  "plugins_audited": 31,
+  "source_files_patched": 5,
+  "plugin_targets_affected": 7,
+  "scope": "Linux source audit and incremental source patches, not Windows/macOS installers or full 31-plugin source bundle"
+}

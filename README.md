@@ -116,3 +116,14 @@ Sửa mirror trial không ghi được gây ghi lại mỗi giây; chờ 60 giâ
 68 kiểm tra chính sách bản quyền gốc, 130 hồi quy với partial ASAN/UBSan, 66 kiểm tra handoff và 40 vòng đời processor trên năm đại diện đều qua Linux. DSP/parameter layout/processBlock AutoTune khớp byte; không đổi key/config, trial policy, IDs hoặc phiên bản sản phẩm. 15 file source overlay có SHA256, backup và script Apply-Fix.ps1. Tương thích bản vá menu T-EQ trước vì không chạm UI/CMake.
 
 Chưa có binary native mới, chưa xác nhận sửa đúng lần Cubase 15 Windows treo. Handoff I/O nhỏ vẫn ở constructor/prepare/timer; chưa chuyển toàn bộ sang worker. Timeout cưỡng bức stopThread và Learn/audio notification vẫn cần đối chiếu dump nếu tiếp tục treo. Các public_key.txt nguồn đều trống; bản vá giữ nguyên, cần dùng đúng public key của chủ dự án khi build. Đọc DOC_TRUOC.md trước khi áp dụng.
+
+
+## Kiểm tra 31 VST — 31/10/2026
+
+[Tải báo cáo và bản vá nguồn 5 file](https://github.com/tinhbovo280899-boop/tinh-studio-storep/raw/refs/heads/vst-fixed-downloads-20261027/TStudio_31VST_AUDIT_SOURCE_FIXES_20261031.zip).
+
+Đủ 31 plugin từ bốn ZIP mới: kiểm tra vòng đời, DSP, định danh, license và VocalPack 1.7.3 ghép trên nền 1.7.2. Đã tái hiện và vá callback T-EQ dùng vùng nhớ đã giải phóng, chống NaN đầu vào cho T-Verb/T-Mod/T-Opto/T-TapeFlanger và sửa bù trễ host bypass T-Limiter. T-Compander nhận guard từ file dùng chung. Bản vá giữ ID/tham số/chính sách license và phần tạo màu tiếng.
+
+Nguồn processor/editor của cả 31 plugin đã biên dịch trong harness Linux/JUCE 8.0.12; baseline 186 vòng đời processor / 124 editor, thử lại thêm 42 / 28 sau vá. License 68 kiểm tra, CapKey 19 kiểm tra logic nguồn, AutoTune 89 ca DSP, sáu regression chuyên biệt đều đạt. Harness Signal ghi lỗi vào JSON, không chỉ dựa exit code. Đã tái hiện lỗi callback gốc bằng ASan và xác nhận bản vá vượt cùng phép thử.
+
+**Đây là báo cáo và bản vá tăng thêm, không phải bộ cài hay toàn bộ nguồn 31 VST. Chưa chạy DLL Windows trong Cubase 15.** Worker license vẫn có rủi ro đợi 30 giây khi I/O kẹt, chưa tái hiện ở các ca bình thường. T-Pitch mặc định báo trễ 120 ms, T-DeNoise Live 10,67 ms ở 48 kHz, nên cần xét cả chuỗi monitoring. Chi tiết, hash và log trước/sau trong ZIP và TSTUDIO_31VST_AUDIT_20261031.md.
