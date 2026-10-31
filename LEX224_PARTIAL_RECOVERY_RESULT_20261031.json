@@ -1,0 +1,80 @@
+{
+  "result": "Partial recovery: GUI resources and bundled UI JavaScript, not original DSP source",
+  "plugin_name": "Lexicon 224 Digital Reverb",
+  "plugin_version": "1.4.16",
+  "input_format": ".lunacomponent bundle with Windows x64 algo DLL",
+  "original_gui_files": 49,
+  "original_png_images": 45,
+  "gui_size_css_pixels": [
+    381,
+    621
+  ],
+  "factory_preset_json_files": 55,
+  "readable_bundle_lines": 28494,
+  "recovered_webpack_modules": 83,
+  "formatted_javascript_ast_equal": true,
+  "original_files_verified_byte_for_byte": 104,
+  "dsp_source_recovered": false,
+  "original_typescript_project_recovered": false,
+  "native_dll_executed": false,
+  "standalone_vst3_recovered": false,
+  "license_data_or_dsp_dll_included": false,
+  "gui_preview": "Original web UI renders without a backend; controls/meters lack their native DSP/parameter service",
+  "binary_observations": {
+    "protection_markers": "PACE/iLok wrapper metadata and .guard section; original .text entropy near 8 bits/byte",
+    "text_entropy": 7.999991,
+    "pdb_or_cpp_sources_in_input": false,
+    "plugin_exports": [
+      "CreateRenderableObject",
+      "DeleteRenderableObject",
+      "ServicePlugin"
+    ]
+  },
+  "archive": "LEX224_PARTIAL_UI_RECOVERY_20261031.zip",
+  "bytes": 4508550,
+  "sha256": "acfafc3f2a2c10dd8fc68dffa82817f6721a82d1c6ec0373037056ecfc1d6a93",
+  "files": 231,
+  "validation": {
+    "javascript_syntax_checks_passed": 85,
+    "original_files_sha256_verified": 104,
+    "preview_cases": [
+      {
+        "readable_bundle": false,
+        "device_scale_factor": 1,
+        "title": "Lexicon 224 Digital Reverb",
+        "rendered_elements": 339,
+        "page_errors": [],
+        "http_errors": [],
+        "blocked_external_requests": [],
+        "screenshot": "preview_original_1x.png",
+        "native_dsp_connected": false
+      },
+      {
+        "readable_bundle": true,
+        "device_scale_factor": 1,
+        "title": "Lexicon 224 Digital Reverb",
+        "rendered_elements": 339,
+        "page_errors": [],
+        "http_errors": [],
+        "blocked_external_requests": [],
+        "screenshot": "preview_readable_1x.png",
+        "native_dsp_connected": false
+      },
+      {
+        "readable_bundle": false,
+        "device_scale_factor": 2,
+        "title": "Lexicon 224 Digital Reverb",
+        "rendered_elements": 339,
+        "page_errors": [],
+        "http_errors": [],
+        "blocked_external_requests": [],
+        "screenshot": "preview_original_2x.png",
+        "native_dsp_connected": false
+      }
+    ],
+    "original_vs_readable_render_max_channel_difference": 0,
+    "preview_server_python_syntax_valid": true,
+    "native_windows_mac_launcher_execution": false,
+    "native_dsp_or_audio_verified": false
+  }
+}

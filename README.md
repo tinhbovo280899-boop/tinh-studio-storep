@@ -162,3 +162,8 @@ Gồm T-Verb, T-RVerb, T-PANTHEON, T-LIQUID DELAY. PANTHEON có sáu voicing th�
 ## Vintage 4 — rà lại độ vang và mức tác động 31/10/2026
 
 [Báo cáo T-PurePlate, T-Lex224, T-PultecEQ và T-VoxBox](TSTUDIO_VINTAGE4_WET_RESPONSE_REVIEW_20261031.md). 56 render impulse và 54 ca tone qua processor nguồn thực. T-PurePlate có bù wet theo Decay: từ 3 lên 5,5 s đuôi dài hơn nhưng năng lượng wet tổng trong bài thử chỉ tăng khoảng 0,05 dB. Chưa có render hãng để hiệu chuẩn và chưa sửa DSP trong lượt đo này; đây là báo cáo bổ sung, không phải ZIP plugin/bản vá mới.
+
+
+## Lexicon 224 — trích xuất một phần từ gói đã gửi
+
+[Tải UI/preset/code giao diện đọc được — 4,5 MB](https://github.com/tinhbovo280899-boop/tinh-studio-storep/raw/refs/heads/vst-fixed-downloads-20261027/LEX224_PARTIAL_UI_RECOVERY_20261031.zip). [Báo cáo](LEX224_PARTIAL_RECOVERY_20261031.md). Thu được 49 tệp GUI và 55 preset; chưa khôi phục DSP, mã nguồn C++ gốc hoặc một VST3 có thể chạy. Preview chỉ hiển thị GUI, không xử lý âm thanh.
