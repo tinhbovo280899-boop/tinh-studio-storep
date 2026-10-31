@@ -1,0 +1,13 @@
+{
+  "name": "TStudio_31VST_FUNCTION_AUDIT_PANTHEON_20261031.zip",
+  "bytes": 3243760,
+  "sha256": "0670e8c96c6e7a2e3b34b9aea2dedf1ededebe8dce871065582c97daf515f234",
+  "stats": {
+    "plugin_count": 31,
+    "parameter_count": 561,
+    "dependency_retests": 137,
+    "dependency_resolved_count": 116,
+    "scope": "Source processor signal measurements on Linux/JUCE 8.0.12, not native Windows/Cubase validation or a new DSP fix."
+  },
+  "scope": "Supplemental functional source audit with measurements, not a new DSP patch or native installer"
+}

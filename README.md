@@ -127,3 +127,14 @@ Chưa có binary native mới, chưa xác nhận sửa đúng lần Cubase 15 Wi
 Nguồn processor/editor của cả 31 plugin đã biên dịch trong harness Linux/JUCE 8.0.12; baseline 186 vòng đời processor / 124 editor, thử lại thêm 42 / 28 sau vá. License 68 kiểm tra, CapKey 19 kiểm tra logic nguồn, AutoTune 89 ca DSP, sáu regression chuyên biệt đều đạt. Harness Signal ghi lỗi vào JSON, không chỉ dựa exit code. Đã tái hiện lỗi callback gốc bằng ASan và xác nhận bản vá vượt cùng phép thử.
 
 **Đây là báo cáo và bản vá tăng thêm, không phải bộ cài hay toàn bộ nguồn 31 VST. Chưa chạy DLL Windows trong Cubase 15.** Worker license vẫn có rủi ro đợi 30 giây khi I/O kẹt, chưa tái hiện ở các ca bình thường. T-Pitch mặc định báo trễ 120 ms, T-DeNoise Live 10,67 ms ở 48 kHz, nên cần xét cả chuỗi monitoring. Chi tiết, hash và log trước/sau trong ZIP và TSTUDIO_31VST_AUDIT_20261031.md.
+
+
+## Kiểm tra tác động âm thanh 31 VST / T-PANTHEON — bổ sung 31/10/2026
+
+[Tải báo cáo chức năng, bảng tham số, đồ thị và impulse response](https://github.com/tinhbovo280899-boop/tinh-studio-storep/raw/refs/heads/vst-fixed-downloads-20261027/TStudio_31VST_FUNCTION_AUDIT_PANTHEON_20261031.zip).
+
+Lượt trước tập trung độ ổn định; lượt này đo thêm 561 tham số và 137 ngữ cảnh phụ thuộc. Xác nhận T-PANTHEON bỏ qua lựa chọn sáu loại vang: cùng cấu hình cho đầu ra giống từng mẫu ở 44.1/48/96 kHz. Ở mặc định RT60 2.03 s, đo T30 ngoại suy tại 1 kHz khoảng 1.027 s; Bass Boost 1.2x..2.5x không đổi vì chạm clamp; Damping không khớp chiều một tần số cắt Hz. 34/37 preset trộn cả dry, nên trên FX Send phải kiểm tra Mix 100% sau khi đổi preset. LIQUID Delay HD chưa có nhánh DSP.
+
+RVox Comp=0, Vitamin Drive=0 và Pitch shift=0 là cấu hình trung tính; đã đo được tác động khi chỉnh đúng điều kiện. 116 tham số ít/không đổi ở default có tác động trong ngữ cảnh bổ sung. AutoKey chủ ý truyền audio nguyên dạng để phân tích key/scale. Các mục không đổi trong harness chưa tự chứng minh lỗi.
+
+**Gói này là báo cáo bổ sung, không phải bản DSP đã sửa. Các phát hiện mới chưa nằm trong ZIP vá 5 file trước.** Chưa chạy binary Windows/Cubase 15 hoặc nghe vocal thật đợt này. Chi tiết phép đo, giới hạn và hash trong ZIP/TSTUDIO_31VST_FUNCTION_AUDIT_PANTHEON_20261031.md.
