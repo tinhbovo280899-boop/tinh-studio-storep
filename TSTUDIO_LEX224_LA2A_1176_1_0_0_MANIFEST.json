@@ -1,0 +1,72 @@
+{
+  "file": "TStudio_Lex224_LA2A_1176_1.0.0_FIXED_WIN_SOURCE.zip",
+  "bytes": 24359785,
+  "sha256": "197bdd30727fe902376d3270f2e84c8e10a070b89118a7bc2391d24e981fb919",
+  "source_files": 3340,
+  "archive_files": 3341,
+  "products": [
+    {
+      "target": "TLex224R",
+      "short": "Lex224",
+      "display_name": "T-Lex224-R",
+      "code": "Tl2R",
+      "bundle_id": "com.tstudio.lex224.review1",
+      "factory_presets": 55,
+      "default_preset": 54,
+      "parameter_count": 25,
+      "resource_files": [
+        "Resources/lex_panel.png",
+        "Resources/lex_pot.png",
+        "Resources/lex_slider.png",
+        "Resources/lex_small.png",
+        "Resources/lex_small_l.png",
+        "Resources/lex_small_r.png",
+        "Resources/lex_big.png",
+        "Resources/lex_power.png",
+        "Resources/lex_link.png",
+        "Resources/lex_meter.png"
+      ]
+    },
+    {
+      "target": "TLA2ATC",
+      "short": "LA2A",
+      "display_name": "T-LA2A-TC",
+      "code": "Tl2C",
+      "bundle_id": "com.tstudio.la2a.review1",
+      "factory_presets": 29,
+      "default_preset": 28,
+      "parameter_count": 6,
+      "resource_files": [
+        "Resources/la_panel.png",
+        "Resources/la_knob.png",
+        "Resources/la_rotary.png",
+        "Resources/la_power.png",
+        "Resources/la_limit.png",
+        "Resources/la_needle_on.png",
+        "Resources/la_needle_off.png",
+        "Resources/la_dim.png"
+      ]
+    },
+    {
+      "target": "TFET1176",
+      "short": "FET1176",
+      "display_name": "T-1176-FET",
+      "code": "Tf7C",
+      "bundle_id": "com.tstudio.fet1176.review1",
+      "factory_presets": 26,
+      "default_preset": 25,
+      "parameter_count": 8,
+      "resource_files": [
+        "Resources/fet_panel.png",
+        "Resources/fet_knob.png",
+        "Resources/fet_small.png",
+        "Resources/fet_ratio.png",
+        "Resources/fet_meter.png",
+        "Resources/fet_needle_on.png",
+        "Resources/fet_needle_off.png",
+        "Resources/fet_dim.png"
+      ]
+    }
+  ],
+  "validation": "DSP/GUI, ASan/UBSan and real Linux VST3 host tests passed; Windows/Cubase not executed. Windows exporter mock contract tests passed."
+}

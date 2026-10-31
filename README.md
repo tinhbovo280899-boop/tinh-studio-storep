@@ -1,3 +1,11 @@
+# Lex224 / LA2A / 1176 — ba VST3 đã sửa, kèm BAT Windows
+
+[Tải ZIP mã nguồn đầy đủ — 24,4 MB](https://github.com/tinhbovo280899-boop/tinh-studio-storep/raw/refs/heads/vst-fixed-downloads-20261027/TStudio_Lex224_LA2A_1176_1.0.0_FIXED_WIN_SOURCE.zip). Gồm **T-Lex224-R, T-LA2A-TC, T-1176-FET**, JUCE 8.0.12, 110 factory preset và `1_BUILD_AND_EXPORT_WINDOWS.bat`. Giải nén vào thư mục mới, cần Visual Studio/Build Tools C++ x64, Windows SDK và CMake 3.22+.
+
+Lex224 sửa Pre-delay 0, reset và decay theo vòng tank thực; LA2A sửa bộ nhớ optical theo sample rate; hai compressor có VU 300 ms, 1176 sửa Ratio và Meter Off. Core/GUI, ASan/UBSan, ba VST3 Linux và host thử đều đạt. Rear Outputs chưa có DSP riêng nên khóa trên GUI, giá trị preset vẫn lưu. **ZIP chưa có VST3 Windows build sẵn; chưa chạy MSVC/Cubase 15 và chưa xác nhận giống UAD 1:1.** [Báo cáo và giới hạn](TSTUDIO_LEX224_LA2A_1176_1_0_0_REVIEW.md).
+
+---
+
 # Ba VST3 EQP1A / MEQ5 / Century — mã nguồn đã sửa, kèm BAT Windows
 
 [Tải ZIP đầy đủ — 34,1 MB](https://github.com/tinhbovo280899-boop/tinh-studio-storep/raw/refs/heads/vst-fixed-downloads-20261027/TStudio_3VST_EQP1A_MEQ5_Century_1.0.0_FIXED_WIN_SOURCE.zip). Gồm T-EQP1A, T-MEQ5 và T-Century, một cây JUCE, 171 preset và `1_BUILD_AND_EXPORT_WINDOWS.bat`. Giải nén đủ ZIP; cần Visual Studio/Build Tools C++ x64, Windows SDK và CMake 3.22+. File BAT build Release và xuất đủ ba thư mục VST3 vào `_EXPORT/Build-.../VST3`.
