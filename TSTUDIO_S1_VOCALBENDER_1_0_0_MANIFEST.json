@@ -1,0 +1,39 @@
+{
+  "file": "TStudio_S1_VocalBender_1.0.0_FIXED_WIN_SOURCE.zip",
+  "bytes": 36512901,
+  "sha256": "328e4eb551c79a23ecce3641ce7b08ea2e8858d8d1a634447b3d701c020e9434",
+  "source_files": 3196,
+  "archive_files": 3197,
+  "products": [
+    {
+      "target": "TStereoSpace",
+      "display_name": "T-StereoSpace",
+      "code": "TsSp",
+      "bundle_id": "com.tstudio.stereospace.review1",
+      "factory_presets": 8,
+      "parameter_count": 15
+    },
+    {
+      "target": "TVocalBend",
+      "display_name": "T-VocalBend",
+      "code": "TvBn",
+      "bundle_id": "com.tstudio.vocalbend.review1",
+      "factory_presets": 9,
+      "parameter_count": 14
+    }
+  ],
+  "validation": {
+    "core_checks": 677593,
+    "core_failures": 0,
+    "plugin_results": [
+      "T-StereoSpace PLUGIN: 38462 checks, 0 failures; 6 processor / 3 editor lifecycles",
+      "T-VocalBend PLUGIN: 32437 checks, 0 failures; 6 processor / 3 editor lifecycles"
+    ],
+    "audio_allocation_scope": "12 warmed process loops, 100 blocks each: intercepted C++ new/new[] allocations = 0. Not an interception of all system allocations.",
+    "native_rate_configurations": 24,
+    "windows_export_contract_cases": 9,
+    "native_windows_build": false,
+    "cubase_15_test": false,
+    "sanitizers": "ASan + UBSan in submitted core/processor/editor/tests; imported prebuilt JUCE QA runtime not instrumented; leak detection disabled. All three executables passed."
+  }
+}

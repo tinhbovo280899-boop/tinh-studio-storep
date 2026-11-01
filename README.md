@@ -1,3 +1,13 @@
+# S1 / Vocal Bender — mã nguồn đã sửa, kèm BAT Windows
+
+[Tải ZIP đầy đủ — 36.5 MB](https://github.com/tinhbovo280899-boop/tinh-studio-storep/raw/refs/heads/vst-fixed-downloads-20261027/TStudio_S1_VocalBender_1.0.0_FIXED_WIN_SOURCE.zip). Gồm **T-StereoSpace** và **T-VocalBend**, 17 preset T Studio, JUCE 8.0.12 và `1_BUILD_AND_EXPORT_WINDOWS.bat`. Giải nén vào thư mục mới; cần Visual Studio C++ x64/Windows SDK và CMake 3.22+.
+
+S1 sửa ma trận trung tính, M/S, polarity/swap và bass shelf. Vocal Bender sửa tỷ lệ semitone, scheduler/window hạt, sinc, reset và dò stereo/sample rate cao; Neutral/Mix 0 giữ dry. UI native T Studio, toàn bộ ảnh/mã gốc giữ nguyên ở `Reference/ORIGINAL_UPLOAD.zip`. Core 677.593 kiểm tra đạt; hai processor/editor, ASan/UBSan, 24 cấu hình VST3 Linux thật và 9 hợp đồng exporter đạt. **Đây là ZIP mã nguồn, chưa có Windows VST3 build sẵn; chưa chạy Cubase 15 Windows và không xác nhận giống Waves 100%. Host báo 0 sample không chứng minh wet pitch/formant có độ trễ âm học bằng 0.** [Báo cáo](TSTUDIO_S1_VOCALBENDER_1_0_0_REVIEW.md).
+
+[UI Stereo](TSTUDIO_S1_VOCALBENDER_PREVIEW_STEREO.png) · [UI Vocal](TSTUDIO_S1_VOCALBENDER_PREVIEW_VOCAL.png) · [Đo âm thanh tổng hợp](TSTUDIO_S1_VOCALBENDER_AUDIO_COMPARISON.png)
+
+---
+
 # Lex224 / LA2A / 1176 — ba VST3 đã sửa, kèm BAT Windows
 
 [Tải ZIP mã nguồn đầy đủ — 24,4 MB](https://github.com/tinhbovo280899-boop/tinh-studio-storep/raw/refs/heads/vst-fixed-downloads-20261027/TStudio_Lex224_LA2A_1176_1.0.0_FIXED_WIN_SOURCE.zip). Gồm **T-Lex224-R, T-LA2A-TC, T-1176-FET**, JUCE 8.0.12, 110 factory preset và `1_BUILD_AND_EXPORT_WINDOWS.bat`. Giải nén vào thư mục mới, cần Visual Studio/Build Tools C++ x64, Windows SDK và CMake 3.22+.
