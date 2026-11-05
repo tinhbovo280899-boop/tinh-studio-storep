@@ -1,3 +1,11 @@
+# T-ClassicComp Gold 3.0.0 — mặt vàng, 7 núm và đường nén feedback M/S
+
+[Tải ZIP mã nguồn — 12.6 MB](https://github.com/tinhbovo280899-boop/tinh-studio-storep/raw/refs/heads/vst-fixed-downloads-20261027/T-ClassicComp_Gold_3.0.0_FIXED_WIN_MAC_SOURCE.zip). Gồm **T-ClassicComp Gold**, JUCE 8.0.12, `BUILD_RELEASE.bat`, script Mac Universal và nguyên gói gốc để đối chiếu. Mặt máy T Studio theo bố cục ảnh người dùng, 7 núm, meter GR, Reset, Bypass và A/B/C/D. [Xem giao diện](T_CLASSICCOMP_GOLD_3_0_0_PREVIEW.png).
+
+Đường Gold chạy trực tiếp model feedback M/S gửi vào; đồng nhất API block/mono/sample để sửa lệch 6,0206 dB, bỏ các tầng hybrid/Auto Gain/Air/Drive màu của bản cũ khỏi bản Gold. 299.921 phép kiểm tra và ASan/UBSan đạt, 15 cấu hình VST3 Linux thật và 9 ca exporter mock đạt. **ZIP là mã nguồn, chưa có VST3 Windows/macOS build sẵn; chưa chạy Cubase 15 Windows, chưa xác nhận âm thanh giống IK/T-RackS 100%.** Gold có ID riêng, không tự thay thế plugin cũ. [Báo cáo](T_CLASSICCOMP_GOLD_3_0_0_REVIEW.md) · [Số đo](T_CLASSICCOMP_GOLD_3_0_0_MEASUREMENTS.png).
+
+---
+
 # S1 / Vocal Bender — mã nguồn đã sửa, kèm BAT Windows
 
 [Tải ZIP đầy đủ — 36.5 MB](https://github.com/tinhbovo280899-boop/tinh-studio-storep/raw/refs/heads/vst-fixed-downloads-20261027/TStudio_S1_VocalBender_1.0.0_FIXED_WIN_SOURCE.zip). Gồm **T-StereoSpace** và **T-VocalBend**, 17 preset T Studio, JUCE 8.0.12 và `1_BUILD_AND_EXPORT_WINDOWS.bat`. Giải nén vào thư mục mới; cần Visual Studio C++ x64/Windows SDK và CMake 3.22+.

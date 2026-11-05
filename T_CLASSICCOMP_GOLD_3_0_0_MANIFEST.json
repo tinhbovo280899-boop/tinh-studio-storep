@@ -1,0 +1,20 @@
+{
+  "file": "T-ClassicComp_Gold_3.0.0_FIXED_WIN_MAC_SOURCE.zip",
+  "bytes": 12632994,
+  "sha256": "026fa2f4203dcea56207513927e4f99d0580efa5ced13689ecf22eb1f8f65e77",
+  "archive_files": 3172,
+  "version": "3.0.0",
+  "product": "T-ClassicComp Gold",
+  "original_sha256": "09047cd14e698c8e1a87205ccf6ffa7e10e05ffdba088f3d3dc3dde342192c03",
+  "validation": {
+    "regression_checks": 299921,
+    "failures": 0,
+    "asan_ubsan": true,
+    "native_linux_rate_configurations": 15,
+    "windows_export_contract_cases": 9,
+    "native_windows_build": false,
+    "cubase_15_test": false,
+    "native_mac_build": false
+  },
+  "scope": "Submitted source model, normalized feedback M/S path and new native T Studio UI. Manufacturer equivalence not established."
+}
