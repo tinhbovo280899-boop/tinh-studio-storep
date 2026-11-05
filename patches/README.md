@@ -1,5 +1,27 @@
 # Bản vá LiveNT
 
+## V4: xử lý quá tải GIỌNG AI và chẩn đoán GPU
+
+**[Tải bản vá V4](https://github.com/tinhbovo280899-boop/tinh-studio-storep/raw/refs/heads/livent-patches/patches/LiveNT_GIONG_AI_CHONG_TRE_V4.zip)**
+
+Áp dụng lên Source.zip mới có GIỌNG AI / NativeWorker / tai nghe nhanh, gửi ngày
+05/11/2026. Chép đè 6 file trong Source rồi build trên dự án đầy đủ; gói có hướng
+dẫn, diff và mã kiểm tra. Không ghép lên source cũ hoặc chép V3 đè lên bản này.
+
+- Bỏ cơ chế tự tăng bộ đệm khi AI không theo kịp; báo lỗi và bypass AI khi quá tải
+  kéo dài, trả latency AI về 0 cho host cập nhật bù trễ.
+- Lấy trung vị các lần warm-up, tránh một lần chậm làm trễ cả phiên.
+- Giữ lý do GPU fallback sang CPU, hiển thị bộ chạy thực tế. Tai nghe nhanh ghi
+  rõ chỉ đổi cao độ/formant bằng DSP, không dùng giọng mẫu RVC.
+- Giữ khả năng xuất offline dù inference chậm hơn thời gian thực.
+
+Kiểm tra worker bằng engine giả: 7 kịch bản sau sửa đạt với ASan/UBSan. Mô phỏng
+VoiceStream thật tái hiện bản cũ phát giọng gốc trễ 970 ms khi xử lý 800 ms / khối
+120 ms. Worker/engine thật qua kiểm tra cú pháp C++17 với header ONNX Runtime 1.20.1.
+
+Chưa có EXE/bộ cài, chưa chạy Windows ASIO/GPU/model RVC thật. Đây là bản vá quản
+lý bộ đệm và chẩn đoán; không khẳng định đã sửa chất giọng hay tăng tốc inference.
+
 ## V3: sửa giảm ồn theo lõi T-DeNoise Live
 
 **[Tải bản vá V3](https://github.com/tinhbovo280899-boop/tinh-studio-storep/raw/refs/heads/livent-patches/patches/LiveNT_GIAM_ON_TDENoise_LIVE_V3.zip)**
