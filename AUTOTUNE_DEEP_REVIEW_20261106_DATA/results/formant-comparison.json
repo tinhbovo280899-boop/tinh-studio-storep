@@ -1,0 +1,74 @@
+[
+  {
+    "name": "high-formant-96000-40-5",
+    "plain_peak": 0.337034613,
+    "formant_peak": 0.387788057,
+    "recoveries": 0
+  },
+  {
+    "name": "high-formant-96000-40-6",
+    "plain_peak": 0.581779301,
+    "formant_peak": 0.924823165,
+    "recoveries": 6
+  },
+  {
+    "name": "high-formant-96000-57-5",
+    "plain_peak": 0.305249006,
+    "formant_peak": 0.489365101,
+    "recoveries": 6
+  },
+  {
+    "name": "high-formant-96000-57-6",
+    "plain_peak": 0.558770716,
+    "formant_peak": 0.844231308,
+    "recoveries": 5
+  },
+  {
+    "name": "high-formant-96000-69-5",
+    "plain_peak": 0.204288214,
+    "formant_peak": 0.329813898,
+    "recoveries": 4
+  },
+  {
+    "name": "high-formant-96000-69-6",
+    "plain_peak": 0.57988137,
+    "formant_peak": 1.87785196,
+    "recoveries": 3
+  },
+  {
+    "name": "high-formant-192000-40-5",
+    "plain_peak": 0.337034434,
+    "formant_peak": 0.3713606,
+    "recoveries": 4
+  },
+  {
+    "name": "high-formant-192000-40-6",
+    "plain_peak": 0.564848363,
+    "formant_peak": 1.14091897,
+    "recoveries": 405
+  },
+  {
+    "name": "high-formant-192000-57-5",
+    "plain_peak": 0.305245578,
+    "formant_peak": 0.540242791,
+    "recoveries": 32
+  },
+  {
+    "name": "high-formant-192000-57-6",
+    "plain_peak": 0.57760185,
+    "formant_peak": 0.700457036,
+    "recoveries": 3
+  },
+  {
+    "name": "high-formant-192000-69-5",
+    "plain_peak": 0.204275966,
+    "formant_peak": 0.296644777,
+    "recoveries": 6
+  },
+  {
+    "name": "high-formant-192000-69-6",
+    "plain_peak": 0.569890916,
+    "formant_peak": 0.923163414,
+    "recoveries": 5
+  }
+]

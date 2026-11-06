@@ -1,0 +1,32 @@
+{
+  "scope": "Synthetic 220 Hz harmonic voice, center +30 cents with 25-cent 5.5 Hz vibrato. Bandpassed analytic-phase estimate smoothed at 15 Hz, 1.05\u20131.85 sec window. Not a subjective naturalness rating.",
+  "cases": [
+    {
+      "name": "live_default",
+      "flex": 15,
+      "humanize": 35,
+      "retune_ms": 25,
+      "center_cents": 8.843252708668949,
+      "p05_cents": -16.16425821778271,
+      "p95_cents": 33.86681964156552
+    },
+    {
+      "name": "flex_zero",
+      "flex": 0,
+      "humanize": 35,
+      "retune_ms": 25,
+      "center_cents": -0.0207685457317145,
+      "p05_cents": -24.854054939395038,
+      "p95_cents": 24.88947104884918
+    },
+    {
+      "name": "firmer",
+      "flex": 0,
+      "humanize": 15,
+      "retune_ms": 15,
+      "center_cents": 0.264084180326548,
+      "p05_cents": -24.10384920052026,
+      "p95_cents": 24.166876516370884
+    }
+  ]
+}

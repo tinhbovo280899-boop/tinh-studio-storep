@@ -1,3 +1,13 @@
+# AutoTune — kết quả rà soát sâu 06/11/2026
+
+[Đọc báo cáo chi tiết](AUTOTUNE_DEEP_REVIEW_20261106.md) · [Xem biểu đồ](AUTOTUNE_DEEP_REVIEW_20261106.png) · [Dữ liệu và probe](AUTOTUNE_DEEP_REVIEW_20261106_DATA)
+
+Kiểm tra mã nguồn đúng bản AutoTune.zip mới gửi; cả 5 file source giống bản 05/11. Đã mở rộng bài thử: 76 ca DSP, 4 ca biên transpose, 64 ca ASan/UBSan và 68.885 kiểm tra control. Lõi nốt đứng bám tốt khi Flex=0/Transpose=0, còn các điểm cần xử lý: initial Auto-Key sync ghi đè state OFF, Flex giữ lệch tâm, FREEZE giữ cả nốt tune, giới hạn correction tại ±12 st và Formant vọt đỉnh ở transient 96/192 kHz. Báo cáo phân biệt kết quả đo với nhận xét từ code và ghi rõ điều kiện tái hiện.
+
+**Đây là báo cáo trên mã gốc, chưa phải bản plugin đã vá; chưa build nguyên plugin hoặc kiểm tra Cubase/Windows/UAD A-B.** Giữ nguyên source người dùng. Các số đo dùng tín hiệu tổng hợp, không chứng minh vocal thật đang gặp đủ các lỗi nêu trên.
+
+---
+
 # T-ClassicComp Gold 3.0.0 — mặt vàng, 7 núm và đường nén feedback M/S
 
 [Tải ZIP mã nguồn — 12.6 MB](https://github.com/tinhbovo280899-boop/tinh-studio-storep/raw/refs/heads/vst-fixed-downloads-20261027/T-ClassicComp_Gold_3.0.0_FIXED_WIN_MAC_SOURCE.zip). Gồm **T-ClassicComp Gold**, JUCE 8.0.12, `BUILD_RELEASE.bat`, script Mac Universal và nguyên gói gốc để đối chiếu. Mặt máy T Studio theo bố cục ảnh người dùng, 7 núm, meter GR, Reset, Bypass và A/B/C/D. [Xem giao diện](T_CLASSICCOMP_GOLD_3_0_0_PREVIEW.png).

@@ -1,0 +1,11 @@
+steady cases 20 worst cents 0.07069676929555227
+transpose--12-plain 29.98
+transpose--12-formant 29.98
+transpose--5-plain 0.001
+transpose--5-formant 0.001
+transpose-5-plain 1.926
+transpose-5-formant 1.926
+transpose-12-plain 2.479
+transpose-12-formant 2.478
+signal-2-plain [{'time': 0.45, 'input_midi': 57.3, 'target_midi': 57.0001, 'inferred_corrected_midi': 57.000507}, {'time': 0.85, 'input_midi': 59.3, 'target_midi': 59.0031, 'inferred_corrected_midi': 59.007103}, {'time': 1.35, 'input_midi': 61.3, 'target_midi': 61.003, 'inferred_corrected_midi': 61.006783}, {'time': 1.85, 'input_midi': 57.3, 'target_midi': 56.9993, 'inferred_corrected_midi': 56.998574999999995}]
+frozen-target-step [{'time': 0.45, 'input_midi': 57.3, 'target_midi': 57.0, 'inferred_corrected_midi': 57.000296}, {'time': 0.85, 'input_midi': 59.3, 'target_midi': 57.0, 'inferred_corrected_midi': 57.25211}, {'time': 1.35, 'input_midi': 61.3, 'target_midi': 57.0, 'inferred_corrected_midi': 57.26449}, {'time': 1.85, 'input_midi': 57.3, 'target_midi': 57.0, 'inferred_corrected_midi': 56.575879}]

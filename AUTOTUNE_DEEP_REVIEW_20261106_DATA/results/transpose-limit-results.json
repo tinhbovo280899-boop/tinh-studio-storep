@@ -1,0 +1,46 @@
+[
+  {
+    "voiced_samples": 23999,
+    "avg_detected_midi": 56.69999986,
+    "avg_command_correction_cents": 30.00001549,
+    "avg_target_midi": 57,
+    "transpose": -12,
+    "input_offset_cents": -30,
+    "output_hz": 110.00000317312501,
+    "expected_hz": 110.0,
+    "residual_cents": 4.994019963445615e-05
+  },
+  {
+    "voiced_samples": 23999,
+    "avg_detected_midi": 57.30000223,
+    "avg_command_correction_cents": 0,
+    "avg_target_midi": 57,
+    "transpose": -12,
+    "input_offset_cents": 30,
+    "output_hz": 111.92327770132945,
+    "expected_hz": 110.0,
+    "residual_cents": 30.007913005261166
+  },
+  {
+    "voiced_samples": 23999,
+    "avg_detected_midi": 56.69999986,
+    "avg_command_correction_cents": 0,
+    "avg_target_midi": 57,
+    "transpose": 12,
+    "input_offset_cents": -30,
+    "output_hz": 432.43910215792135,
+    "expected_hz": 440.0,
+    "residual_cents": -30.00785149156151
+  },
+  {
+    "voiced_samples": 23999,
+    "avg_detected_midi": 57.30000223,
+    "avg_command_correction_cents": -30.00022483,
+    "avg_target_midi": 57,
+    "transpose": 12,
+    "input_offset_cents": 30,
+    "output_hz": 440.63807172146574,
+    "expected_hz": 440.0,
+    "residual_cents": 2.5087529570372977
+  }
+]

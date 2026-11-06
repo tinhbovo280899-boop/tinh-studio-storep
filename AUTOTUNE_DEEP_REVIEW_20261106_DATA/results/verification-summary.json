@@ -1,0 +1,14 @@
+{
+  "source_identical_previous": true,
+  "original_sha256": "3d32f005277ae33c266cb4a64ad77262b4c8c56f1e37752d8408c75951692f83",
+  "normal_cases": 76,
+  "transpose_limit_cases": 4,
+  "asan_ubsan_cases": 64,
+  "nonfinite_outputs": 0,
+  "control_checks": 68885,
+  "control_failures": 0,
+  "full_plugin_build": false,
+  "cubase_windows_test": false,
+  "manufacturer_comparison": false,
+  "original_sources_modified": false
+}

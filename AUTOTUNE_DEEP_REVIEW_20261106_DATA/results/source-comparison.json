@@ -1,0 +1,27 @@
+[
+  {
+    "name": "TAutoTuneProcessor.cpp",
+    "same": true,
+    "bytes": 91660
+  },
+  {
+    "name": "TAutoTuneEditor.h",
+    "same": true,
+    "bytes": 8570
+  },
+  {
+    "name": "AutoKeyHandoffReader.h",
+    "same": true,
+    "bytes": 19546
+  },
+  {
+    "name": "TAutoTuneProcessor.h",
+    "same": true,
+    "bytes": 21596
+  },
+  {
+    "name": "TAutoTuneEditor.cpp",
+    "same": true,
+    "bytes": 88864
+  }
+]

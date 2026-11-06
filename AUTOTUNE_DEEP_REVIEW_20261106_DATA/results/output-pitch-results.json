@@ -1,0 +1,201 @@
+{
+  "scope": "Spectral estimates on last second of 2 s synthetic harmonic inputs, Flex=0; expected note known. Formant on/off when named.",
+  "cases": [
+    {
+      "name": "pitch-44100-40",
+      "sample_rate": 44100,
+      "expected_hz": 82.4068892282175,
+      "actual_hz": 82.4068726023702,
+      "residual_cents": -0.0003492819120218736
+    },
+    {
+      "name": "pitch-44100-45",
+      "sample_rate": 44100,
+      "expected_hz": 110.0,
+      "actual_hz": 109.99999045959436,
+      "residual_cents": -0.00015015159828761455
+    },
+    {
+      "name": "pitch-44100-57",
+      "sample_rate": 44100,
+      "expected_hz": 220.0,
+      "actual_hz": 219.99998374957121,
+      "residual_cents": -0.00012787862126664075
+    },
+    {
+      "name": "pitch-44100-69",
+      "sample_rate": 44100,
+      "expected_hz": 440.0,
+      "actual_hz": 440.00022699439086,
+      "residual_cents": 0.0008931370839860183
+    },
+    {
+      "name": "pitch-44100-81",
+      "sample_rate": 44100,
+      "expected_hz": 880.0,
+      "actual_hz": 879.9921027385386,
+      "residual_cents": -0.015536442368196632
+    },
+    {
+      "name": "pitch-48000-40",
+      "sample_rate": 48000,
+      "expected_hz": 82.4068892282175,
+      "actual_hz": 82.40687165738363,
+      "residual_cents": -0.0003691345394032769
+    },
+    {
+      "name": "pitch-48000-45",
+      "sample_rate": 48000,
+      "expected_hz": 110.0,
+      "actual_hz": 109.9999830920951,
+      "residual_cents": -0.00026610493537103147
+    },
+    {
+      "name": "pitch-48000-57",
+      "sample_rate": 48000,
+      "expected_hz": 220.0,
+      "actual_hz": 219.99999017095135,
+      "residual_cents": -7.734720024845878e-05
+    },
+    {
+      "name": "pitch-48000-69",
+      "sample_rate": 48000,
+      "expected_hz": 440.0,
+      "actual_hz": 439.9996709807794,
+      "residual_cents": -0.0012945670238349162
+    },
+    {
+      "name": "pitch-48000-81",
+      "sample_rate": 48000,
+      "expected_hz": 880.0,
+      "actual_hz": 880.005668613359,
+      "residual_cents": 0.011151891875447642
+    },
+    {
+      "name": "pitch-96000-40",
+      "sample_rate": 96000,
+      "expected_hz": 82.4068892282175,
+      "actual_hz": 82.40841173232666,
+      "residual_cents": 0.031985027340757206
+    },
+    {
+      "name": "pitch-96000-45",
+      "sample_rate": 96000,
+      "expected_hz": 110.0,
+      "actual_hz": 110.00261242063223,
+      "residual_cents": 0.04111507131185549
+    },
+    {
+      "name": "pitch-96000-57",
+      "sample_rate": 96000,
+      "expected_hz": 220.0,
+      "actual_hz": 220.00898411559388,
+      "residual_cents": 0.07069676929555227
+    },
+    {
+      "name": "pitch-96000-69",
+      "sample_rate": 96000,
+      "expected_hz": 440.0,
+      "actual_hz": 439.9996617641123,
+      "residual_cents": -0.0013308311600638595
+    },
+    {
+      "name": "pitch-96000-81",
+      "sample_rate": 96000,
+      "expected_hz": 880.0,
+      "actual_hz": 880.0056486642856,
+      "residual_cents": 0.011112646087732467
+    },
+    {
+      "name": "pitch-192000-40",
+      "sample_rate": 192000,
+      "expected_hz": 82.4068892282175,
+      "actual_hz": 82.40763825238858,
+      "residual_cents": 0.015735702044931018
+    },
+    {
+      "name": "pitch-192000-45",
+      "sample_rate": 192000,
+      "expected_hz": 110.0,
+      "actual_hz": 110.0000088831729,
+      "residual_cents": 0.0001398077339951188
+    },
+    {
+      "name": "pitch-192000-57",
+      "sample_rate": 192000,
+      "expected_hz": 220.0,
+      "actual_hz": 220.00445057224368,
+      "residual_cents": 0.03502229214437296
+    },
+    {
+      "name": "pitch-192000-69",
+      "sample_rate": 192000,
+      "expected_hz": 440.0,
+      "actual_hz": 440.0175935920172,
+      "residual_cents": 0.06922276502496454
+    },
+    {
+      "name": "pitch-192000-81",
+      "sample_rate": 192000,
+      "expected_hz": 880.0,
+      "actual_hz": 880.0056413814707,
+      "residual_cents": 0.01109831861485757
+    },
+    {
+      "name": "transpose--12-plain",
+      "sample_rate": 48000,
+      "expected_hz": 110.0,
+      "actual_hz": 111.92148069018998,
+      "residual_cents": 29.980116536908294
+    },
+    {
+      "name": "transpose--12-formant",
+      "sample_rate": 48000,
+      "expected_hz": 110.0,
+      "actual_hz": 111.92147402692615,
+      "residual_cents": 29.980013467600173
+    },
+    {
+      "name": "transpose--5-plain",
+      "sample_rate": 48000,
+      "expected_hz": 164.81377845643496,
+      "actual_hz": 164.81391575923902,
+      "residual_cents": 0.0014422531455264124
+    },
+    {
+      "name": "transpose--5-formant",
+      "sample_rate": 48000,
+      "expected_hz": 164.81377845643496,
+      "actual_hz": 164.81391836020953,
+      "residual_cents": 0.0014695741919395113
+    },
+    {
+      "name": "transpose-5-plain",
+      "sample_rate": 48000,
+      "expected_hz": 293.6647679174076,
+      "actual_hz": 293.9916904153771,
+      "residual_cents": 1.9262254681392357
+    },
+    {
+      "name": "transpose-5-formant",
+      "sample_rate": 48000,
+      "expected_hz": 293.6647679174076,
+      "actual_hz": 293.9916870615454,
+      "residual_cents": 1.9262057183712675
+    },
+    {
+      "name": "transpose-12-plain",
+      "sample_rate": 48000,
+      "expected_hz": 440.0,
+      "actual_hz": 440.63057202592233,
+      "residual_cents": 2.479286963041417
+    },
+    {
+      "name": "transpose-12-formant",
+      "sample_rate": 48000,
+      "expected_hz": 440.0,
+      "actual_hz": 440.6303708840819,
+      "residual_cents": 2.4784966781534954
+    }
+  ]
+}

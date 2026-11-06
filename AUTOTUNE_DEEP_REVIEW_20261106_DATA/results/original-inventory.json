@@ -1,0 +1,26 @@
+{
+  "zip_sha256": "3d32f005277ae33c266cb4a64ad77262b4c8c56f1e37752d8408c75951692f83",
+  "identical_previous": false,
+  "files": [
+    {
+      "path": "AutoTune/Source/TAutoTuneProcessor.cpp",
+      "sha256": "5eb225c401edfaa78a439a2515fee4bbd3d05bc6d8d98e6a6d1037ce1224bf4f"
+    },
+    {
+      "path": "AutoTune/Source/TAutoTuneEditor.h",
+      "sha256": "59aaa34dd234a50df5dc8a453e92ce2206890cfe39c84440a1f17aaf1acdeb8a"
+    },
+    {
+      "path": "AutoTune/Source/AutoKeyHandoffReader.h",
+      "sha256": "5f637267c7a4b2a487b6b104bc3bb97a228c0bd7e5437260e0c7107afd1b5788"
+    },
+    {
+      "path": "AutoTune/Source/TAutoTuneProcessor.h",
+      "sha256": "d74123a87bd143a4ee4270747cfbb889aace9016a2d36c56943ba17922e05024"
+    },
+    {
+      "path": "AutoTune/Source/TAutoTuneEditor.cpp",
+      "sha256": "8991285d57cfa7bb15174787f2271c7757266736459856de2dcc3c80c80be485"
+    }
+  ]
+}

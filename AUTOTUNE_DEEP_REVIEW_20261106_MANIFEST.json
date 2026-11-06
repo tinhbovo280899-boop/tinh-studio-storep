@@ -1,0 +1,183 @@
+{
+  "summary": {
+    "source_identical_previous": true,
+    "original_sha256": "3d32f005277ae33c266cb4a64ad77262b4c8c56f1e37752d8408c75951692f83",
+    "normal_cases": 76,
+    "transpose_limit_cases": 4,
+    "asan_ubsan_cases": 64,
+    "nonfinite_outputs": 0,
+    "control_checks": 68885,
+    "control_failures": 0,
+    "full_plugin_build": false,
+    "cubase_windows_test": false,
+    "manufacturer_comparison": false,
+    "original_sources_modified": false
+  },
+  "files": [
+    {
+      "path": "AUTOTUNE_DEEP_REVIEW_20261106_DATA/logs/control-checks.log",
+      "bytes": 84,
+      "sha256": "9f0d847d56eb5e27a8d917e77b1b4954ac7343e112ab75822e2a43cd8d2883c1"
+    },
+    {
+      "path": "AUTOTUNE_DEEP_REVIEW_20261106_DATA/logs/deep-analysis.log",
+      "bytes": 1070,
+      "sha256": "c6e173b0a1c6a152949173eb88d4f46aa70c99de5233cefe3b99e127cccf54a3"
+    },
+    {
+      "path": "AUTOTUNE_DEEP_REVIEW_20261106_DATA/logs/handoff-probe.log",
+      "bytes": 279,
+      "sha256": "d086cc31169df55e147443d43533a2b100b45b9c83603222ea65336910040a7f"
+    },
+    {
+      "path": "AUTOTUNE_DEEP_REVIEW_20261106_DATA/logs/high-formant-sanitizer.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "AUTOTUNE_DEEP_REVIEW_20261106_DATA/logs/restore-sync-probe.log",
+      "bytes": 106,
+      "sha256": "523d9c964c90709badd8074f108d3ac2b74cc1926d3beab0f0e49b22b3db995c"
+    },
+    {
+      "path": "AUTOTUNE_DEEP_REVIEW_20261106_DATA/logs/sanitizer.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "AUTOTUNE_DEEP_REVIEW_20261106_DATA/logs/write-report.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "AUTOTUNE_DEEP_REVIEW_20261106_DATA/probes/ChannelOnly.cpp",
+      "bytes": 58931,
+      "sha256": "0f4d32ceb2e7cf81b59ef224a6b932e4387239bf3c5ef761d7f84e5ea76c4fcf"
+    },
+    {
+      "path": "AUTOTUNE_DEEP_REVIEW_20261106_DATA/probes/ChannelOnly.h",
+      "bytes": 9965,
+      "sha256": "c1af594e005d3e4538ccc6b4e9d6ceae389f6fb9cb960ce54e4741a6bfc4ac6e"
+    },
+    {
+      "path": "AUTOTUNE_DEEP_REVIEW_20261106_DATA/probes/README.md",
+      "bytes": 1394,
+      "sha256": "7e9c5f3035738be87ceedbef66940a3ff8f436b31ebda20df656f7cdc299c329"
+    },
+    {
+      "path": "AUTOTUNE_DEEP_REVIEW_20261106_DATA/probes/ReaderFixtureOnly.h",
+      "bytes": 14814,
+      "sha256": "466bb22c04b77a5976ddf1e47658c8f5b8e9771afd1084e5b992f030f9228fe5"
+    },
+    {
+      "path": "AUTOTUNE_DEEP_REVIEW_20261106_DATA/probes/analyze_deep.py",
+      "bytes": 1794,
+      "sha256": "4c2c30736df1f19e63c72d567109e4999255f80e4cf4d32ae976e5f20245d245"
+    },
+    {
+      "path": "AUTOTUNE_DEEP_REVIEW_20261106_DATA/probes/control_checks.cpp",
+      "bytes": 2720,
+      "sha256": "93f2e76f09999979ddc48a8931145a3070b5e74ab110b5d641e031cf96f8eae4"
+    },
+    {
+      "path": "AUTOTUNE_DEEP_REVIEW_20261106_DATA/probes/deep_probe.cpp",
+      "bytes": 5779,
+      "sha256": "9b8ea21bc6f1ce00d5db46e907765b30db326fe8a81d19b76b2a6a015a8ccb58"
+    },
+    {
+      "path": "AUTOTUNE_DEEP_REVIEW_20261106_DATA/probes/handoff_probe.cpp",
+      "bytes": 770,
+      "sha256": "64b8972cf417d27ee31c971703d4ce25471407d69d933a2359fcedc5a40bad6f"
+    },
+    {
+      "path": "AUTOTUNE_DEEP_REVIEW_20261106_DATA/probes/make_review_plot.py",
+      "bytes": 2736,
+      "sha256": "95d9b2a6e6edfbc24c1c1ba9f91420fb64c38afe05405ccd30ce40cc17862ac6"
+    },
+    {
+      "path": "AUTOTUNE_DEEP_REVIEW_20261106_DATA/probes/restore_sync_probe.cpp",
+      "bytes": 907,
+      "sha256": "13ed14609c53b65d66a171c6d3803e8222897795f8985407b528088b17f1944e"
+    },
+    {
+      "path": "AUTOTUNE_DEEP_REVIEW_20261106_DATA/probes/transpose_probe.cpp",
+      "bytes": 1551,
+      "sha256": "b7be061eef07053697287974b28ce305f394e891506a33ddf7bb713cd6c7cf78"
+    },
+    {
+      "path": "AUTOTUNE_DEEP_REVIEW_20261106_DATA/results/deep-results.json",
+      "bytes": 22149,
+      "sha256": "a14cdc85a3a854e11c27a94148e6f8830b83ffd0db929719178fdf7267eefb5e"
+    },
+    {
+      "path": "AUTOTUNE_DEEP_REVIEW_20261106_DATA/results/deep-sanitized-results.json",
+      "bytes": 22124,
+      "sha256": "4018794338745db6b9c64d1e10a0d37080017dc172d51168e179c3c1014ee7cb"
+    },
+    {
+      "path": "AUTOTUNE_DEEP_REVIEW_20261106_DATA/results/formant-comparison.json",
+      "bytes": 1590,
+      "sha256": "c22ecc9bc662822abf8f3602dd0adf708e4666ae428023717a00e7c03c521a1d"
+    },
+    {
+      "path": "AUTOTUNE_DEEP_REVIEW_20261106_DATA/results/high-formant-results.json",
+      "bytes": 5245,
+      "sha256": "5a2906b4a7f12b895117f19503abfbbe676e32e7d7215ec4a4ea41835642f458"
+    },
+    {
+      "path": "AUTOTUNE_DEEP_REVIEW_20261106_DATA/results/high-formant-sanitized-results.json",
+      "bytes": 5226,
+      "sha256": "40b4adac792781c8f3c3823c322c574c3c8db3dc605430ce7006a3b390772d8a"
+    },
+    {
+      "path": "AUTOTUNE_DEEP_REVIEW_20261106_DATA/results/high-plain-results.json",
+      "bytes": 5220,
+      "sha256": "f797cfe57ee79afbbab65e2a0c4cfc45528c867a296b827e228b5105cbc91860"
+    },
+    {
+      "path": "AUTOTUNE_DEEP_REVIEW_20261106_DATA/results/original-inventory.json",
+      "bytes": 884,
+      "sha256": "2f0a86b5864ae43bc832a9896d14872dd32e1957f4773869f7c9b38eee2b2c1b"
+    },
+    {
+      "path": "AUTOTUNE_DEEP_REVIEW_20261106_DATA/results/output-pitch-results.json",
+      "bytes": 5470,
+      "sha256": "ce6fb0200110d66ef1534cb93f2bfbcd32f21fce77090d12ba63a9874b68ad0c"
+    },
+    {
+      "path": "AUTOTUNE_DEEP_REVIEW_20261106_DATA/results/previous-pitch-results.json",
+      "bytes": 11416,
+      "sha256": "87671a204a94847f466fa7fdbaca85b2cb2e0df7bfb6fc8ec4d22848345e75b0"
+    },
+    {
+      "path": "AUTOTUNE_DEEP_REVIEW_20261106_DATA/results/previous-vibrato-results.json",
+      "bytes": 893,
+      "sha256": "fc4e2eab303a3fcfe941a5880fba88fe5c4f90ac5ffb7628f550537a24b1a554"
+    },
+    {
+      "path": "AUTOTUNE_DEEP_REVIEW_20261106_DATA/results/source-comparison.json",
+      "bytes": 411,
+      "sha256": "6d07a43de86a2b4fa9e3a26d74e0c1c710870dba49aa8d2ebe375ef5b32aa30c"
+    },
+    {
+      "path": "AUTOTUNE_DEEP_REVIEW_20261106_DATA/results/transpose-limit-results.json",
+      "bytes": 1219,
+      "sha256": "abc0361c2f66220b2b92f07dbaa7599462abbf6c3c2e8f7ccf45fcb44ff76c6c"
+    },
+    {
+      "path": "AUTOTUNE_DEEP_REVIEW_20261106_DATA/results/verification-summary.json",
+      "bytes": 421,
+      "sha256": "eef0f5d1b85d9d7db25cf3e32d327202859fff5ac7d3974f85f81d79b83521e0"
+    },
+    {
+      "path": "AUTOTUNE_DEEP_REVIEW_20261106.md",
+      "bytes": 12926,
+      "sha256": "5e2a94c368dabe40758724114a6e1cf46a300d0c817d3c98a04a8d1555add81b"
+    },
+    {
+      "path": "AUTOTUNE_DEEP_REVIEW_20261106.png",
+      "bytes": 199482,
+      "sha256": "51f04911caee3867be8d5579b29c9d8ca39cab0971ae03bc080d5f1e1740869b"
+    }
+  ]
+}
