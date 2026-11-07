@@ -1,0 +1,1 @@
+{"frames_per_callback":64,"sample_rate":48000,"budget_us":1333.333,"steady_p95_us":102.134,"transition_interval_p95_us":139.511,"max_callback_us":1602.07,"worst_callback_index":867,"max_rss_kib":62088}

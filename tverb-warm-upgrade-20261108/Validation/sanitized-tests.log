@@ -1,0 +1,11 @@
+Test project /workspace/tverb-warm-upgrade-20261108/build/sanitized
+    Start 1: TVerb_AuditTests
+1/3 Test #1: TVerb_AuditTests .................   Passed   26.02 sec
+    Start 2: TVerb_ExtendedTests
+2/3 Test #2: TVerb_ExtendedTests ..............   Passed   38.42 sec
+    Start 3: TVerb_UpgradeTests
+3/3 Test #3: TVerb_UpgradeTests ...............   Passed    8.88 sec
+
+100% tests passed out of 3
+
+Total Test time (real) =  73.33 sec

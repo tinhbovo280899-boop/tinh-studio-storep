@@ -1,0 +1,18 @@
+[  4%] Built target TVerbEngine
+[  9%] Built target TVerb_vst3_helper
+[ 14%] Built target TakLicense
+[ 26%] Built target TStudioFonts
+[ 28%] Building CXX object CMakeFiles/TVerb.dir/src/Plugin.cpp.o
+[ 30%] Linking CXX static library TVerb_artefacts/Release/libT-Verb_SharedCode.a
+[ 78%] Built target TVerb
+[ 80%] Linking CXX shared module TVerb_artefacts/Release/VST3/T-Verb.vst3/Contents/x86_64-linux/T-Verb.so
+removing moduleinfo.json
+creating /workspace/tverb-warm-upgrade-20261108/build/native/TVerb_artefacts/Release/VST3/T-Verb.vst3
+[100%] Built target TVerb_VST3
+[  6%] Built target TVerbEngine
+[ 21%] Built target TStudioFonts
+[ 27%] Built target TakLicense
+[ 93%] Built target TVerb
+[ 96%] Building CXX object CMakeFiles/TVerb_ProcessorQA.dir/tests/ProcessorUpgradeQA.cpp.o
+[100%] Linking CXX executable TVerb_ProcessorQA
+[100%] Built target TVerb_ProcessorQA

@@ -1,0 +1,38 @@
+{
+  "matching": "Same dry, each wet scaled to 0.55 times full-clip dry RMS; not LUFS matched.",
+  "clips": [
+    {
+      "file": "01_Legacy_reference.wav",
+      "source": "Synthetic voiced vowels, original generated input, not a user vocal or manufacturer audio.",
+      "sample_rate": 48000,
+      "seconds": 14,
+      "wet_rms_gain_db": -3.234213598104682,
+      "peak_mixed": 0.3065084766857178,
+      "frames": 672000,
+      "peak": 0.250035,
+      "nonfinite": 0
+    },
+    {
+      "file": "02_Day_Oang_Warmth_0.wav",
+      "source": "Synthetic voiced vowels, original generated input, not a user vocal or manufacturer audio.",
+      "sample_rate": 48000,
+      "seconds": 14,
+      "wet_rms_gain_db": -4.94296273087989,
+      "peak_mixed": 0.297055719847197,
+      "frames": 672000,
+      "peak": 0.330958,
+      "nonfinite": 0
+    },
+    {
+      "file": "03_Day_Oang_Am_Warmth_35.wav",
+      "source": "Synthetic voiced vowels, original generated input, not a user vocal or manufacturer audio.",
+      "sample_rate": 48000,
+      "seconds": 14,
+      "wet_rms_gain_db": -5.121227637326652,
+      "peak_mixed": 0.2981472701508847,
+      "frames": 672000,
+      "peak": 0.339658,
+      "nonfinite": 0
+    }
+  ]
+}

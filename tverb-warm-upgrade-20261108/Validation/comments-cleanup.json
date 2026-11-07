@@ -1,0 +1,15 @@
+{
+  "comments_removed": {
+    "TVerbParameters.h": 4,
+    "TVerbReverbDSP.cpp": 6,
+    "TVerbReverbDSP.h": 77,
+    "TVerbSubComponents.h": 37,
+    "TVerbTables.h": 18
+  },
+  "total": 142,
+  "scope": "Only DSP/UI source comments mentioning reconstruction, binary offsets or vendor. Licensing and JUCE not modified.",
+  "preprocessed_tokens_unchanged": true,
+  "normalized_preprocessed_sha256_at_cleanup_step": "4d09d42d8c83e9151e8b4f8aa5aad38009190b74e9ea5a16ceaba543b38f51a3",
+  "final_tables_match_original_preprocessed": true,
+  "final_tables_preprocessed_sha256": "919d4e868fe8052f3d6aadd17df099eedb67b5351f5e8807015740bf855873e8"
+}

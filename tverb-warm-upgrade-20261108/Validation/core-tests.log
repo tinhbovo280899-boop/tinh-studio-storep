@@ -1,0 +1,13 @@
+Test project /workspace/tverb-warm-upgrade-20261108/build/core
+    Start 1: TVerb_AuditTests
+1/4 Test #1: TVerb_AuditTests .................   Passed    7.27 sec
+    Start 2: TVerb_ExtendedTests
+2/4 Test #2: TVerb_ExtendedTests ..............   Passed   11.28 sec
+    Start 3: TVerb_UpgradeTests
+3/4 Test #3: TVerb_UpgradeTests ...............   Passed    2.72 sec
+    Start 4: TVerb_AllocationTests
+4/4 Test #4: TVerb_AllocationTests ............   Passed    0.09 sec
+
+100% tests passed out of 4
+
+Total Test time (real) =  21.36 sec

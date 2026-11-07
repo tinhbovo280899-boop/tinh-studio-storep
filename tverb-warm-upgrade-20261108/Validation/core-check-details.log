@@ -1,0 +1,466 @@
+Start testing: Nov 07 23:37 UTC
+----------------------------------------------------------
+1/4 Testing: TVerb_AuditTests
+1/4 Test: TVerb_AuditTests
+Command: "/workspace/tverb-warm-upgrade-20261108/build/core/TVerb_AuditTests"
+Directory: /workspace/tverb-warm-upgrade-20261108/build/core/test-results/Audit
+"TVerb_AuditTests" start time: Nov 07 23:37 UTC
+Output:
+----------------------------------------------------------
+PASS predelay_samples_0 actual=0 expected=0
+PASS predelay_samples_1 actual=0 expected=0
+PASS predelay_samples_71 actual=0 expected=0
+PASS predelay_samples_96000 actual=0 expected=0
+PASS damping_ratio_roundtrip actual=9.87900421e-07 expected=0
+PASS comb_equal_band_first_echo actual=-0.5 expected=-0.5
+PASS comb_equal_band_no_filter_coloration actual=5.551115123e-17 expected=0
+PASS comb_equal_band_other_crossovers_0.500000 actual=-0.5 expected=-0.5
+PASS comb_equal_band_other_crossovers_0.800000 actual=-0.8 expected=-0.8
+PASS comb_equal_band_other_crossovers_0.950000 actual=-0.95 expected=-0.95
+PASS biquad_crossfade_block_partition actual=0 expected=0
+PASS resampler_partition_sr44100_dsp22050_block1 actual=0 expected=0
+PASS resampler_partition_sr44100_dsp22050_block7 actual=0 expected=0
+PASS resampler_partition_sr44100_dsp22050_block64 actual=0 expected=0
+PASS resampler_partition_sr44100_dsp22050_block511 actual=0 expected=0
+PASS resampler_partition_sr44100_dsp44100_block1 actual=0 expected=0
+PASS resampler_partition_sr44100_dsp44100_block7 actual=0 expected=0
+PASS resampler_partition_sr44100_dsp44100_block64 actual=0 expected=0
+PASS resampler_partition_sr44100_dsp44100_block511 actual=0 expected=0
+PASS resampler_partition_sr44100_dsp96000_block1 actual=0 expected=0
+PASS resampler_partition_sr44100_dsp96000_block7 actual=0 expected=0
+PASS resampler_partition_sr44100_dsp96000_block64 actual=0 expected=0
+PASS resampler_partition_sr44100_dsp96000_block511 actual=7.450580597e-09 expected=0
+PASS resampler_partition_sr48000_dsp22050_block1 actual=9.313225746e-10 expected=0
+PASS resampler_partition_sr48000_dsp22050_block7 actual=1.490116119e-08 expected=0
+PASS resampler_partition_sr48000_dsp22050_block64 actual=1.490116119e-08 expected=0
+PASS resampler_partition_sr48000_dsp22050_block511 actual=1.490116119e-08 expected=0
+PASS resampler_partition_sr48000_dsp44100_block1 actual=1.490116119e-08 expected=0
+PASS resampler_partition_sr48000_dsp44100_block7 actual=4.547473509e-13 expected=0
+PASS resampler_partition_sr48000_dsp44100_block64 actual=4.547473509e-13 expected=0
+PASS resampler_partition_sr48000_dsp44100_block511 actual=7.450580597e-09 expected=0
+PASS resampler_partition_sr48000_dsp96000_block1 actual=0 expected=0
+PASS resampler_partition_sr48000_dsp96000_block7 actual=0 expected=0
+PASS resampler_partition_sr48000_dsp96000_block64 actual=0 expected=0
+PASS resampler_partition_sr48000_dsp96000_block511 actual=0 expected=0
+PASS resampler_partition_sr96000_dsp22050_block1 actual=2.328306437e-10 expected=0
+PASS resampler_partition_sr96000_dsp22050_block7 actual=0 expected=0
+PASS resampler_partition_sr96000_dsp22050_block64 actual=0 expected=0
+PASS resampler_partition_sr96000_dsp22050_block511 actual=0 expected=0
+PASS resampler_partition_sr96000_dsp44100_block1 actual=1.490116119e-08 expected=0
+PASS resampler_partition_sr96000_dsp44100_block7 actual=1.490116119e-08 expected=0
+PASS resampler_partition_sr96000_dsp44100_block64 actual=4.656612873e-10 expected=0
+PASS resampler_partition_sr96000_dsp44100_block511 actual=4.656612873e-10 expected=0
+PASS resampler_partition_sr96000_dsp96000_block1 actual=0 expected=0
+PASS resampler_partition_sr96000_dsp96000_block7 actual=0 expected=0
+PASS resampler_partition_sr96000_dsp96000_block64 actual=0 expected=0
+PASS resampler_partition_sr96000_dsp96000_block511 actual=0 expected=0
+PASS impulse_sr44100_q0_type0 actual=0.0415927805 expected=0
+PASS impulse_sr44100_q0_type1 actual=0.04443365335 expected=0
+PASS impulse_sr44100_q0_type2 actual=0.05500659347 expected=0
+PASS impulse_sr44100_q0_type3 actual=0.0552011095 expected=0
+PASS impulse_sr44100_q0_type4 actual=0.03742448241 expected=0
+PASS impulse_sr44100_q0_type5 actual=0.06675278395 expected=0
+PASS impulse_sr44100_q0_type6 actual=0.07172375917 expected=0
+PASS impulse_sr44100_q0_type7 actual=0.05656047538 expected=0
+PASS impulse_sr44100_q0_type8 actual=0.05521578714 expected=0
+PASS impulse_sr44100_q0_type9 actual=0.03316532448 expected=0
+PASS impulse_sr44100_q0_type10 actual=0.03913089633 expected=0
+PASS impulse_sr44100_q0_type11 actual=0.03948248923 expected=0
+PASS impulse_sr44100_q0_type12 actual=0.04302701354 expected=0
+PASS impulse_sr44100_q1_type0 actual=0.09249459952 expected=0
+PASS impulse_sr44100_q1_type1 actual=0.0999565348 expected=0
+PASS impulse_sr44100_q1_type2 actual=0.1392778158 expected=0
+PASS impulse_sr44100_q1_type3 actual=0.1323867291 expected=0
+PASS impulse_sr44100_q1_type4 actual=0.09272248298 expected=0
+PASS impulse_sr44100_q1_type5 actual=0.1653854549 expected=0
+PASS impulse_sr44100_q1_type6 actual=0.1734421849 expected=0
+PASS impulse_sr44100_q1_type7 actual=0.1295630634 expected=0
+PASS impulse_sr44100_q1_type8 actual=0.1368016154 expected=0
+PASS impulse_sr44100_q1_type9 actual=0.082169801 expected=0
+PASS impulse_sr44100_q1_type10 actual=0.09062582254 expected=0
+PASS impulse_sr44100_q1_type11 actual=0.08514022827 expected=0
+PASS impulse_sr44100_q1_type12 actual=0.1001262739 expected=0
+PASS impulse_sr44100_q2_type0 actual=0.1374120265 expected=0
+PASS impulse_sr44100_q2_type1 actual=0.09715656191 expected=0
+PASS impulse_sr44100_q2_type2 actual=0.1737127304 expected=0
+PASS impulse_sr44100_q2_type3 actual=0.1592152417 expected=0
+PASS impulse_sr44100_q2_type4 actual=0.1178687289 expected=0
+PASS impulse_sr44100_q2_type5 actual=0.2029350996 expected=0
+PASS impulse_sr44100_q2_type6 actual=0.2361070514 expected=0
+PASS impulse_sr44100_q2_type7 actual=0.2166395187 expected=0
+PASS impulse_sr44100_q2_type8 actual=0.1622990817 expected=0
+PASS impulse_sr44100_q2_type9 actual=0.1042572707 expected=0
+PASS impulse_sr44100_q2_type10 actual=0.1175107211 expected=0
+PASS impulse_sr44100_q2_type11 actual=0.1209605932 expected=0
+PASS impulse_sr44100_q2_type12 actual=0.1221914589 expected=0
+PASS impulse_sr48000_q0_type0 actual=0.04440284893 expected=0
+PASS impulse_sr48000_q0_type1 actual=0.05554411933 expected=0
+PASS impulse_sr48000_q0_type2 actual=0.05708570033 expected=0
+PASS impulse_sr48000_q0_type3 actual=0.06423742324 expected=0
+PASS impulse_sr48000_q0_type4 actual=0.04244327545 expected=0
+PASS impulse_sr48000_q0_type5 actual=0.07455004752 expected=0
+PASS impulse_sr48000_q0_type6 actual=0.07936807722 expected=0
+PASS impulse_sr48000_q0_type7 actual=0.06319373846 expected=0
+PASS impulse_sr48000_q0_type8 actual=0.06297923625 expected=0
+PASS impulse_sr48000_q0_type9 actual=0.03687855601 expected=0
+PASS impulse_sr48000_q0_type10 actual=0.04077838361 expected=0
+PASS impulse_sr48000_q0_type11 actual=0.04018031061 expected=0
+PASS impulse_sr48000_q0_type12 actual=0.0461669527 expected=0
+PASS impulse_sr48000_q1_type0 actual=0.07446151227 expected=0
+PASS impulse_sr48000_q1_type1 actual=0.06997604668 expected=0
+PASS impulse_sr48000_q1_type2 actual=0.100464724 expected=0
+PASS impulse_sr48000_q1_type3 actual=0.1055777743 expected=0
+PASS impulse_sr48000_q1_type4 actual=0.07031276822 expected=0
+PASS impulse_sr48000_q1_type5 actual=0.1226555407 expected=0
+PASS impulse_sr48000_q1_type6 actual=0.1358162463 expected=0
+PASS impulse_sr48000_q1_type7 actual=0.09852591157 expected=0
+PASS impulse_sr48000_q1_type8 actual=0.1093233228 expected=0
+PASS impulse_sr48000_q1_type9 actual=0.06017955393 expected=0
+PASS impulse_sr48000_q1_type10 actual=0.07101113349 expected=0
+PASS impulse_sr48000_q1_type11 actual=0.06673125923 expected=0
+PASS impulse_sr48000_q1_type12 actual=0.0798882544 expected=0
+PASS impulse_sr48000_q2_type0 actual=0.1162081361 expected=0
+PASS impulse_sr48000_q2_type1 actual=0.118429862 expected=0
+PASS impulse_sr48000_q2_type2 actual=0.151541248 expected=0
+PASS impulse_sr48000_q2_type3 actual=0.1352287531 expected=0
+PASS impulse_sr48000_q2_type4 actual=0.121724166 expected=0
+PASS impulse_sr48000_q2_type5 actual=0.1690321565 expected=0
+PASS impulse_sr48000_q2_type6 actual=0.2178746164 expected=0
+PASS impulse_sr48000_q2_type7 actual=0.2528951168 expected=0
+PASS impulse_sr48000_q2_type8 actual=0.1700982153 expected=0
+PASS impulse_sr48000_q2_type9 actual=0.09136293828 expected=0
+PASS impulse_sr48000_q2_type10 actual=0.1316365302 expected=0
+PASS impulse_sr48000_q2_type11 actual=0.09898787737 expected=0
+PASS impulse_sr48000_q2_type12 actual=0.1244963408 expected=0
+PASS impulse_sr96000_q0_type0 actual=0.01518034283 expected=0
+PASS impulse_sr96000_q0_type1 actual=0.01871412434 expected=0
+PASS impulse_sr96000_q0_type2 actual=0.02017407119 expected=0
+PASS impulse_sr96000_q0_type3 actual=0.02211259864 expected=0
+PASS impulse_sr96000_q0_type4 actual=0.01471622288 expected=0
+PASS impulse_sr96000_q0_type5 actual=0.02603475191 expected=0
+PASS impulse_sr96000_q0_type6 actual=0.02753847837 expected=0
+PASS impulse_sr96000_q0_type7 actual=0.02154349908 expected=0
+PASS impulse_sr96000_q0_type8 actual=0.02171478234 expected=0
+PASS impulse_sr96000_q0_type9 actual=0.01301834546 expected=0
+PASS impulse_sr96000_q0_type10 actual=0.01434708759 expected=0
+PASS impulse_sr96000_q0_type11 actual=0.01398843899 expected=0
+PASS impulse_sr96000_q0_type12 actual=0.01583497413 expected=0
+PASS impulse_sr96000_q1_type0 actual=0.05335048959 expected=0
+PASS impulse_sr96000_q1_type1 actual=0.0579758063 expected=0
+PASS impulse_sr96000_q1_type2 actual=0.08017648757 expected=0
+PASS impulse_sr96000_q1_type3 actual=0.07231063396 expected=0
+PASS impulse_sr96000_q1_type4 actual=0.0536554642 expected=0
+PASS impulse_sr96000_q1_type5 actual=0.09475370497 expected=0
+PASS impulse_sr96000_q1_type6 actual=0.1006884649 expected=0
+PASS impulse_sr96000_q1_type7 actual=0.06261891127 expected=0
+PASS impulse_sr96000_q1_type8 actual=0.07667536288 expected=0
+PASS impulse_sr96000_q1_type9 actual=0.04702586308 expected=0
+PASS impulse_sr96000_q1_type10 actual=0.05161883309 expected=0
+PASS impulse_sr96000_q1_type11 actual=0.0485987626 expected=0
+PASS impulse_sr96000_q1_type12 actual=0.05382934958 expected=0
+PASS impulse_sr96000_q2_type0 actual=0.1347904205 expected=0
+PASS impulse_sr96000_q2_type1 actual=0.1032100394 expected=0
+PASS impulse_sr96000_q2_type2 actual=0.1560469419 expected=0
+PASS impulse_sr96000_q2_type3 actual=0.1611431688 expected=0
+PASS impulse_sr96000_q2_type4 actual=0.1172630712 expected=0
+PASS impulse_sr96000_q2_type5 actual=0.2091575563 expected=0
+PASS impulse_sr96000_q2_type6 actual=0.2308822274 expected=0
+PASS impulse_sr96000_q2_type7 actual=0.2436267138 expected=0
+PASS impulse_sr96000_q2_type8 actual=0.1630304009 expected=0
+PASS impulse_sr96000_q2_type9 actual=0.09273287654 expected=0
+PASS impulse_sr96000_q2_type10 actual=0.1268121451 expected=0
+PASS impulse_sr96000_q2_type11 actual=0.1279559284 expected=0
+PASS impulse_sr96000_q2_type12 actual=0.1394383758 expected=0
+PASS tail_stability_decay_0.200000 actual=0.09791217744 expected=0
+PASS tail_stability_decay_1.000000 actual=0.09833950549 expected=0
+PASS tail_stability_decay_2.000000 actual=0.09352731705 expected=0
+PASS tail_stability_decay_5.000000 actual=0.09236774594 expected=0
+PASS tail_stability_decay_15.000000 actual=0.09227754921 expected=0
+PASS tail_stability_decay_45.200001 actual=0.09225276858 expected=0
+PASS dry_unity_sr44100_block1 actual=2.980232239e-08 expected=0
+PASS dry_unity_sr44100_block7 actual=2.980232239e-08 expected=0
+PASS dry_unity_sr44100_block64 actual=2.980232239e-08 expected=0
+PASS dry_unity_sr44100_block512 actual=2.980232239e-08 expected=0
+PASS dry_unity_sr48000_block1 actual=2.980232239e-08 expected=0
+PASS dry_unity_sr48000_block7 actual=2.980232239e-08 expected=0
+PASS dry_unity_sr48000_block64 actual=2.980232239e-08 expected=0
+PASS dry_unity_sr48000_block512 actual=2.980232239e-08 expected=0
+PASS dry_unity_sr96000_block1 actual=2.980232239e-08 expected=0
+PASS dry_unity_sr96000_block7 actual=2.980232239e-08 expected=0
+PASS dry_unity_sr96000_block64 actual=2.980232239e-08 expected=0
+PASS dry_unity_sr96000_block512 actual=2.980232239e-08 expected=0
+PASS bitdepth_forced_64_even_when_32_selected actual=0 expected=0
+TOTAL 183 FAILED 0
+<end of output>
+Test time =   7.27 sec
+----------------------------------------------------------
+Test Passed.
+"TVerb_AuditTests" end time: Nov 07 23:38 UTC
+"TVerb_AuditTests" time elapsed: 00:00:07
+----------------------------------------------------------
+
+2/4 Testing: TVerb_ExtendedTests
+2/4 Test: TVerb_ExtendedTests
+Command: "/workspace/tverb-warm-upgrade-20261108/build/core/TVerb_ExtendedTests"
+Directory: /workspace/tverb-warm-upgrade-20261108/build/core/test-results/Extended
+"TVerb_ExtendedTests" start time: Nov 07 23:38 UTC
+Output:
+----------------------------------------------------------
+PASS preset_sr44100_0 actual=0.05075194687 expected=0
+PASS preset_sr44100_1 actual=0.05424876139 expected=0
+PASS preset_sr44100_2 actual=0.04529248178 expected=0
+PASS preset_sr44100_3 actual=0.05104842037 expected=0
+PASS preset_sr44100_4 actual=0.05820006877 expected=0
+PASS preset_sr44100_5 actual=0.05583032966 expected=0
+PASS preset_sr44100_6 actual=0.05062400177 expected=0
+PASS preset_sr44100_7 actual=0.05375025794 expected=0
+PASS preset_sr44100_8 actual=0.04660834745 expected=0
+PASS preset_sr44100_9 actual=0.06452845782 expected=0
+PASS preset_sr44100_10 actual=0.04737901315 expected=0
+PASS preset_sr44100_11 actual=0.03945470601 expected=0
+PASS preset_sr44100_12 actual=0.07714347541 expected=0
+PASS preset_sr44100_13 actual=0.03058987297 expected=0
+PASS preset_sr44100_14 actual=0.0272901319 expected=0
+PASS preset_sr44100_15 actual=0.04740879312 expected=0
+PASS preset_sr44100_16 actual=0.02490472607 expected=0
+PASS preset_sr44100_17 actual=0.0401112847 expected=0
+PASS preset_sr44100_18 actual=0.9999998808 expected=0
+PASS preset_sr44100_19 actual=0.9999998808 expected=0
+PASS preset_sr44100_20 actual=0.03391560912 expected=0
+PASS preset_sr44100_21 actual=0.02889803052 expected=0
+PASS preset_sr44100_22 actual=0.03222919255 expected=0
+PASS preset_sr44100_23 actual=0.9999998808 expected=0
+PASS preset_sr48000_0 actual=0.04350365698 expected=0
+PASS preset_sr48000_1 actual=0.04805462435 expected=0
+PASS preset_sr48000_2 actual=0.03734429926 expected=0
+PASS preset_sr48000_3 actual=0.04045846313 expected=0
+PASS preset_sr48000_4 actual=0.04962840304 expected=0
+PASS preset_sr48000_5 actual=0.04863686115 expected=0
+PASS preset_sr48000_6 actual=0.04505126923 expected=0
+PASS preset_sr48000_7 actual=0.04246008024 expected=0
+PASS preset_sr48000_8 actual=0.0400609374 expected=0
+PASS preset_sr48000_9 actual=0.0589059554 expected=0
+PASS preset_sr48000_10 actual=0.04138913378 expected=0
+PASS preset_sr48000_11 actual=0.03197249398 expected=0
+PASS preset_sr48000_12 actual=0.06476277113 expected=0
+PASS preset_sr48000_13 actual=0.02598417737 expected=0
+PASS preset_sr48000_14 actual=0.02501892857 expected=0
+PASS preset_sr48000_15 actual=0.04397906363 expected=0
+PASS preset_sr48000_16 actual=0.02085904032 expected=0
+PASS preset_sr48000_17 actual=0.03627462313 expected=0
+PASS preset_sr48000_18 actual=0.9999998808 expected=0
+PASS preset_sr48000_19 actual=0.9999998808 expected=0
+PASS preset_sr48000_20 actual=0.02774426155 expected=0
+PASS preset_sr48000_21 actual=0.02665854804 expected=0
+PASS preset_sr48000_22 actual=0.02717117965 expected=0
+PASS preset_sr48000_23 actual=0.9999998808 expected=0
+PASS preset_sr96000_0 actual=0.02390607819 expected=0
+PASS preset_sr96000_1 actual=0.02685767971 expected=0
+PASS preset_sr96000_2 actual=0.02114198171 expected=0
+PASS preset_sr96000_3 actual=0.02549040318 expected=0
+PASS preset_sr96000_4 actual=0.02671864629 expected=0
+PASS preset_sr96000_5 actual=0.02808904834 expected=0
+PASS preset_sr96000_6 actual=0.02634557523 expected=0
+PASS preset_sr96000_7 actual=0.02526367828 expected=0
+PASS preset_sr96000_8 actual=0.02180827223 expected=0
+PASS preset_sr96000_9 actual=0.03267486393 expected=0
+PASS preset_sr96000_10 actual=0.0237917956 expected=0
+PASS preset_sr96000_11 actual=0.01942036673 expected=0
+PASS preset_sr96000_12 actual=0.0377590768 expected=0
+PASS preset_sr96000_13 actual=0.01474717725 expected=0
+PASS preset_sr96000_14 actual=0.01372097339 expected=0
+PASS preset_sr96000_15 actual=0.02374550514 expected=0
+PASS preset_sr96000_16 actual=0.01191264857 expected=0
+PASS preset_sr96000_17 actual=0.02098052576 expected=0
+PASS preset_sr96000_18 actual=0.9999998808 expected=0
+PASS preset_sr96000_19 actual=0.9999998808 expected=0
+PASS preset_sr96000_20 actual=0.01637864299 expected=0
+PASS preset_sr96000_21 actual=0.01487071067 expected=0
+PASS preset_sr96000_22 actual=0.01515050605 expected=0
+PASS preset_sr96000_23 actual=0.9999998808 expected=0
+PASS long_tail_2.000000 actual=0.09352731705 expected=0
+PASS tail_energy_decreases_after_ten_seconds_2.000000 actual=3.884609957e-36 expected=3.844810902e-30
+PASS long_tail_15.000000 actual=0.09227754921 expected=0
+PASS tail_energy_decreases_after_ten_seconds_15.000000 actual=8.429438707e-12 expected=0.0003517801295
+PASS long_tail_45.200001 actual=0.09225276858 expected=0
+PASS tail_energy_decreases_after_ten_seconds_45.200001 actual=0.001032218243 expected=0.3562497764
+PASS five_second_quality_0 actual=0.04440284893 expected=0
+QUALITY 0 nonfinite=0 peak=0.04440284893
+PASS five_second_quality_1 actual=0.07446151227 expected=0
+QUALITY 1 nonfinite=0 peak=0.07446151227
+PASS five_second_quality_2 actual=0.1162081361 expected=0
+QUALITY 2 nonfinite=0 peak=0.1162081361
+PASS parameter_2_end_0.000000 actual=0.07446151227 expected=0
+PASS parameter_2_end_1.000000 actual=0.0798882544 expected=0
+PASS parameter_3_end_0.000000 actual=0.06892376393 expected=0
+PASS parameter_3_end_1.000000 actual=0.07419966906 expected=0
+PASS parameter_4_end_0.000000 actual=0.0772293359 expected=0
+PASS parameter_4_end_1.000000 actual=0.07224665582 expected=0
+PASS parameter_5_end_0.000000 actual=0.2394006699 expected=0
+PASS parameter_5_end_1.000000 actual=0.02343550883 expected=0
+PASS parameter_6_end_0.000000 actual=0.1065310463 expected=0
+PASS parameter_6_end_1.000000 actual=0.07460692525 expected=0
+PASS parameter_7_end_0.000000 actual=0.07468998432 expected=0
+PASS parameter_7_end_1.000000 actual=0.07057052106 expected=0
+PASS parameter_8_end_0.000000 actual=0.07422565669 expected=0
+PASS parameter_8_end_1.000000 actual=0.06379152834 expected=0
+PASS parameter_9_end_0.000000 actual=0.08436219394 expected=0
+PASS parameter_9_end_1.000000 actual=0.08583883196 expected=0
+PASS parameter_10_end_0.000000 actual=0.07346043736 expected=0
+PASS parameter_10_end_1.000000 actual=0.07445866615 expected=0
+PASS parameter_11_end_0.000000 actual=0.07435782254 expected=0
+PASS parameter_11_end_1.000000 actual=0.07439806312 expected=0
+PASS parameter_12_end_0.000000 actual=0.07465615124 expected=0
+PASS parameter_12_end_1.000000 actual=0.0743740797 expected=0
+PASS parameter_13_end_0.000000 actual=0.07446151227 expected=0
+PASS parameter_13_end_1.000000 actual=0.07449264824 expected=0
+PASS parameter_14_end_0.000000 actual=0.07440436631 expected=0
+PASS parameter_14_end_1.000000 actual=0.07457535714 expected=0
+PASS parameter_15_end_0.000000 actual=0.04720629752 expected=0
+PASS parameter_15_end_1.000000 actual=0.07186955959 expected=0
+PASS parameter_16_end_0.000000 actual=0.07446151227 expected=0
+PASS parameter_16_end_1.000000 actual=0.09821009636 expected=0
+PASS parameter_17_end_0.000000 actual=0.07446151227 expected=0
+PASS parameter_17_end_1.000000 actual=0.07536791265 expected=0
+PASS parameter_18_end_0.000000 actual=0.07446151227 expected=0
+PASS parameter_18_end_1.000000 actual=0.07446151227 expected=0
+PASS parameter_19_end_0.000000 actual=0.07446151227 expected=0
+PASS parameter_19_end_1.000000 actual=0.02623163909 expected=0
+PASS parameter_20_end_0.000000 actual=0.001766851405 expected=0
+PASS parameter_20_end_1.000000 actual=0.07446151227 expected=0
+PASS parameter_21_end_0.000000 actual=0.04440284893 expected=0
+PASS parameter_21_end_1.000000 actual=0.1162081361 expected=0
+PASS parameter_22_end_0.000000 actual=0.07446151227 expected=0
+PASS parameter_22_end_1.000000 actual=0.07446151227 expected=0
+PASS parameter_23_end_0.000000 actual=0 expected=0
+PASS parameter_23_end_1.000000 actual=0.07446151227 expected=0
+PASS rapid_parameter_switches_finite actual=0 expected=0
+PASS dry_stream_sr44100_q0 actual=2.980232239e-08 expected=0
+PASS dry_stream_sr44100_q1 actual=2.980232239e-08 expected=0
+PASS dry_stream_sr44100_q2 actual=2.980232239e-08 expected=0
+PASS dry_stream_sr48000_q0 actual=2.980232239e-08 expected=0
+PASS dry_stream_sr48000_q1 actual=2.980232239e-08 expected=0
+PASS dry_stream_sr48000_q2 actual=2.980232239e-08 expected=0
+PASS dry_stream_sr96000_q0 actual=2.980232239e-08 expected=0
+PASS dry_stream_sr96000_q1 actual=2.980232239e-08 expected=0
+PASS dry_stream_sr96000_q2 actual=2.980232239e-08 expected=0
+CROSSOVER host-original-hi=4000 engine-adjusted-hi=5774.999512
+PASS full_engine_variable_blocks_sr44100_q0 actual=0 expected=0
+PASS full_engine_variable_blocks_sr44100_q1 actual=0 expected=0
+PASS full_engine_variable_blocks_sr44100_q2 actual=1.164153218e-10 expected=0
+PASS full_engine_variable_blocks_sr48000_q0 actual=0 expected=0
+PASS full_engine_variable_blocks_sr48000_q1 actual=1.164153218e-10 expected=0
+PASS full_engine_variable_blocks_sr48000_q2 actual=0 expected=0
+PASS full_engine_variable_blocks_sr96000_q0 actual=0 expected=0
+PASS full_engine_variable_blocks_sr96000_q1 actual=1.164153218e-10 expected=0
+PASS full_engine_variable_blocks_sr96000_q2 actual=0 expected=0
+PASS low_quality_clamps_high_cut actual=10584 expected=0
+PASS normal_quality_restores_requested_high_cut actual=15999.99902 expected=16000
+TOTAL 146 FAILED 0
+<end of output>
+Test time =  11.28 sec
+----------------------------------------------------------
+Test Passed.
+"TVerb_ExtendedTests" end time: Nov 07 23:38 UTC
+"TVerb_ExtendedTests" time elapsed: 00:00:11
+----------------------------------------------------------
+
+3/4 Testing: TVerb_UpgradeTests
+3/4 Test: TVerb_UpgradeTests
+Command: "/workspace/tverb-warm-upgrade-20261108/build/core/TVerb_UpgradeTests"
+Directory: /workspace/tverb-warm-upgrade-20261108/build/core/test-results/Upgrade
+"TVerb_UpgradeTests" start time: Nov 07 23:38 UTC
+Output:
+----------------------------------------------------------
+PASS warmth_finite_22050_320_0.000000 value=0
+PASS warmth_zero_exact_22050_320_0.000000 value=0
+PASS warmth_finite_22050_320_0.350000 value=0.363181
+PASS warmth_monotonic_22050_320_0.350000 value=0.363181
+PASS warmth_finite_22050_320_1.000000 value=0.999991
+PASS warmth_monotonic_22050_320_1.000000 value=0.999991
+PASS warmth_gentle_range_22050_320_1.000000 value=0.999991
+PASS warmth_finite_22050_10000_0.000000 value=0
+PASS warmth_zero_exact_22050_10000_0.000000 value=0
+PASS warmth_finite_22050_10000_0.350000 value=-0.649187
+PASS warmth_monotonic_22050_10000_0.350000 value=-0.649187
+PASS warmth_finite_22050_10000_1.000000 value=-1.99898
+PASS warmth_monotonic_22050_10000_1.000000 value=-1.99898
+PASS warmth_gentle_range_22050_10000_1.000000 value=-1.99898
+PASS warmth_finite_44100_320_0.000000 value=0
+PASS warmth_zero_exact_44100_320_0.000000 value=0
+PASS warmth_finite_44100_320_0.350000 value=0.363151
+PASS warmth_monotonic_44100_320_0.350000 value=0.363151
+PASS warmth_finite_44100_320_1.000000 value=0.999981
+PASS warmth_monotonic_44100_320_1.000000 value=0.999981
+PASS warmth_gentle_range_44100_320_1.000000 value=0.999981
+PASS warmth_finite_44100_10000_0.000000 value=0
+PASS warmth_zero_exact_44100_10000_0.000000 value=0
+PASS warmth_finite_44100_10000_0.350000 value=-0.626631
+PASS warmth_monotonic_44100_10000_0.350000 value=-0.626631
+PASS warmth_finite_44100_10000_1.000000 value=-1.89829
+PASS warmth_monotonic_44100_10000_1.000000 value=-1.89829
+PASS warmth_gentle_range_44100_10000_1.000000 value=-1.89829
+PASS warmth_finite_96000_320_0.000000 value=0
+PASS warmth_zero_exact_96000_320_0.000000 value=0
+PASS warmth_finite_96000_320_0.350000 value=0.363143
+PASS warmth_monotonic_96000_320_0.350000 value=0.363143
+PASS warmth_finite_96000_320_1.000000 value=0.999978
+PASS warmth_monotonic_96000_320_1.000000 value=0.999978
+PASS warmth_gentle_range_96000_320_1.000000 value=0.999978
+PASS warmth_finite_96000_10000_0.000000 value=0
+PASS warmth_zero_exact_96000_10000_0.000000 value=0
+PASS warmth_finite_96000_10000_0.350000 value=-0.612906
+PASS warmth_monotonic_96000_10000_0.350000 value=-0.612906
+PASS warmth_finite_96000_10000_1.000000 value=-1.84448
+PASS warmth_monotonic_96000_10000_1.000000 value=-1.84448
+PASS warmth_gentle_range_96000_10000_1.000000 value=-1.84448
+PASS independent_early_plus_late_q0 value=1.30385e-08
+PASS warmth_does_not_color_early_q0 value=0
+PASS independent_early_plus_late_q1 value=1.11759e-08
+PASS warmth_does_not_color_early_q1 value=0
+PASS independent_early_plus_late_q2 value=1.49012e-08
+PASS warmth_does_not_color_early_q2 value=0
+PASS nonfinite_input_equals_zero_without_erasing_tail_48 value=0
+PASS nonfinite_input_equals_zero_without_erasing_tail_49 value=0
+PASS nonfinite_input_equals_zero_without_erasing_tail_50 value=0
+PASS nonfinite_input_equals_zero_without_erasing_tail_51 value=0
+PASS nonfinite_input_equals_zero_without_erasing_tail_52 value=0
+PASS nonfinite_input_equals_zero_without_erasing_tail_53 value=0
+PASS nonfinite_parameters_leave_last_good_values value=0
+PASS warmth_preserves_dry_path value=1.49012e-08
+PASS dry_toggle_fades_in_30ms value=0.499653
+PASS automated_new_controls_are_block_partition_invariant value=0
+PASS async_configuration_crossfade_preserves_initial_tail_2 value=0.00222224
+PASS queued_configuration_applies_latest_request_2 value=7
+PASS async_configuration_crossfade_preserves_initial_tail_21 value=0.00163284
+PASS queued_configuration_applies_latest_request_21 value=0
+PASS first_live_buffer_defers_late_geometry_updates value=0
+PASS stop_prepare_and_destroy_with_configuration_in_flight value=0
+PASS offline_configuration_automation_is_repeatable value=0
+TOTAL 65 FAILED 0
+<end of output>
+Test time =   2.72 sec
+----------------------------------------------------------
+Test Passed.
+"TVerb_UpgradeTests" end time: Nov 07 23:38 UTC
+"TVerb_UpgradeTests" time elapsed: 00:00:02
+----------------------------------------------------------
+
+4/4 Testing: TVerb_AllocationTests
+4/4 Test: TVerb_AllocationTests
+Command: "/workspace/tverb-warm-upgrade-20261108/build/core/TVerb_AllocationTests"
+Directory: /workspace/tverb-warm-upgrade-20261108/build/core
+"TVerb_AllocationTests" start time: Nov 07 23:38 UTC
+Output:
+----------------------------------------------------------
+Allocations in 50 warmed-up audio callbacks: 0
+Allocations while changing parameters/quality and processing an oversized block: 0
+<end of output>
+Test time =   0.09 sec
+----------------------------------------------------------
+Test Passed.
+"TVerb_AllocationTests" end time: Nov 07 23:38 UTC
+"TVerb_AllocationTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 07 23:38 UTC

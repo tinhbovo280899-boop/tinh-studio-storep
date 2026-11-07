@@ -1,0 +1,68 @@
+{
+  "scope": "Final upgrade vs original uploaded TVerb. Warmth 0, Early/Late 0 dB; finite static input and no configuration automation. Same GCC O2, FP contraction off.",
+  "cases": [
+    {
+      "sample_rate": 44100,
+      "quality": 0,
+      "frames": 88200,
+      "max_abs_difference": 0.0,
+      "float_values_unequal": 0
+    },
+    {
+      "sample_rate": 44100,
+      "quality": 1,
+      "frames": 88200,
+      "max_abs_difference": 0.0,
+      "float_values_unequal": 0
+    },
+    {
+      "sample_rate": 44100,
+      "quality": 2,
+      "frames": 88200,
+      "max_abs_difference": 0.0,
+      "float_values_unequal": 0
+    },
+    {
+      "sample_rate": 48000,
+      "quality": 0,
+      "frames": 96000,
+      "max_abs_difference": 0.0,
+      "float_values_unequal": 0
+    },
+    {
+      "sample_rate": 48000,
+      "quality": 1,
+      "frames": 96000,
+      "max_abs_difference": 0.0,
+      "float_values_unequal": 0
+    },
+    {
+      "sample_rate": 48000,
+      "quality": 2,
+      "frames": 96000,
+      "max_abs_difference": 0.0,
+      "float_values_unequal": 0
+    },
+    {
+      "sample_rate": 96000,
+      "quality": 0,
+      "frames": 192000,
+      "max_abs_difference": 0.0,
+      "float_values_unequal": 0
+    },
+    {
+      "sample_rate": 96000,
+      "quality": 1,
+      "frames": 192000,
+      "max_abs_difference": 0.0,
+      "float_values_unequal": 0
+    },
+    {
+      "sample_rate": 96000,
+      "quality": 2,
+      "frames": 192000,
+      "max_abs_difference": 0.0,
+      "float_values_unequal": 0
+    }
+  ]
+}
