@@ -1,0 +1,37 @@
+[
+  {
+    "file": "TVerbReverbDSP.cpp",
+    "bytes": 46087,
+    "sha256": "d364c8b1ee900b71e33ad8040b99570d9758890ff022eb04920f34c4e2f06e8e"
+  },
+  {
+    "file": "TVerbReverbDSP.h",
+    "bytes": 11231,
+    "sha256": "b7bd02aca62516423f1a379dd9d7b1c8c14cde11173248b43e1cdd34f188092d"
+  },
+  {
+    "file": "TVerbSubComponents.h",
+    "bytes": 58393,
+    "sha256": "3d04898e30c83cd8df6e3135ee8a7a708f78cca1720675338740bb6307e97ad4"
+  },
+  {
+    "file": "TVerbTables.h",
+    "bytes": 15159,
+    "sha256": "ba0b68e3b405d4f600b833657d42af9667e8fe2284ab3c466ac09ca9d3baacd9"
+  },
+  {
+    "file": "TVerbParameters.h",
+    "bytes": 17460,
+    "sha256": "e0d676948684e411b0752c2ea4b978c21ab1f01fc89baeef5ed14518ad88c31c"
+  },
+  {
+    "file": "FactoryPresets.h",
+    "bytes": 5506,
+    "sha256": "1bb671525abc1d18d29cafe3ecf126d92e09139eeb2edc9bca51e6103d959645"
+  },
+  {
+    "file": "t_artsacousticreverb_dsp.cpp",
+    "bytes": 64776,
+    "sha256": "e1f7414471ce0ff638bb4f216832027ad38f77d572bfa2243ab35a13cc70c068"
+  }
+]

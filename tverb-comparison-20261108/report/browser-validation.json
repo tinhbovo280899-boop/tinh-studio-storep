@@ -1,0 +1,13 @@
+{
+  "browser": "Chromium /usr/bin/chromium, Playwright headless",
+  "transport": "Local HTTP with byte-range support; managed browser policy blocks file://, so local-file transport was not verified here.",
+  "passed": [
+    "Page and WAV metadata load",
+    "All six buttons preserve playback position",
+    "Wet-only mode selects correct file",
+    "Playing source switch resumes at same position",
+    "390 px viewport has no horizontal overflow",
+    "No JavaScript page errors"
+  ],
+  "js_errors": []
+}

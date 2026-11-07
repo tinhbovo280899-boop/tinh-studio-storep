@@ -1,0 +1,39 @@
+{
+  "sample_rate": 48000,
+  "source": "Synthetic voiced vowels, original generated input; not a user vocal or manufacturer render.",
+  "dry_rms": 0.044099977820859365,
+  "wet_rms_target": 0.024254987801472654,
+  "common_master_gain": 1.0,
+  "clips": {
+    "tv_common": {
+      "label": "TVerb - baseline",
+      "wet_gain_db": -3.234213598104682,
+      "mixed_file": "01_tv_common_matched_wet_mix.wav",
+      "wet_only_file": "01_tv_common_matched_wet_only.wav"
+    },
+    "cpp_common": {
+      "label": "C++ reconstruction",
+      "wet_gain_db": -13.10451384414286,
+      "mixed_file": "02_cpp_common_matched_wet_mix.wav",
+      "wet_only_file": "02_cpp_common_matched_wet_only.wav"
+    },
+    "tv_dense": {
+      "label": "TVerb - Dense",
+      "wet_gain_db": -3.287001882638595,
+      "mixed_file": "03_tv_dense_matched_wet_mix.wav",
+      "wet_only_file": "03_tv_dense_matched_wet_only.wav"
+    },
+    "tv_oang": {
+      "label": "TVerb - Oang",
+      "wet_gain_db": -5.613462814680848,
+      "mixed_file": "04_tv_oang_matched_wet_mix.wav",
+      "wet_only_file": "04_tv_oang_matched_wet_only.wav"
+    },
+    "tv_oang_smooth": {
+      "label": "TVerb - Oang Smooth",
+      "wet_gain_db": -4.979111537130605,
+      "mixed_file": "05_tv_oang_smooth_matched_wet_mix.wav",
+      "wet_only_file": "05_tv_oang_smooth_matched_wet_only.wav"
+    }
+  }
+}

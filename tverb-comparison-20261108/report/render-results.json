@@ -1,0 +1,137 @@
+[
+  {
+    "variant": "tv_common",
+    "sample_rate": 48000,
+    "frames": 672000,
+    "peak": 0.0104696,
+    "energy": 0.0267395,
+    "nonfinite": 0,
+    "signal": "impulse"
+  },
+  {
+    "variant": "tv_common",
+    "sample_rate": 48000,
+    "frames": 672000,
+    "peak": 0.250035,
+    "energy": 1665.03,
+    "nonfinite": 0,
+    "signal": "synthetic_voice"
+  },
+  {
+    "variant": "tv_common",
+    "sample_rate": 48000,
+    "frames": 672000,
+    "peak": 0.0587048,
+    "energy": 40.6774,
+    "nonfinite": 0,
+    "signal": "bursts"
+  },
+  {
+    "variant": "cpp_common",
+    "sample_rate": 48000,
+    "frames": 672000,
+    "peak": 0.0243174,
+    "energy": 2.02131,
+    "nonfinite": 0,
+    "signal": "impulse"
+  },
+  {
+    "variant": "cpp_common",
+    "sample_rate": 48000,
+    "frames": 672000,
+    "peak": 0.871243,
+    "energy": 16160.4,
+    "nonfinite": 0,
+    "signal": "synthetic_voice"
+  },
+  {
+    "variant": "cpp_common",
+    "sample_rate": 48000,
+    "frames": 672000,
+    "peak": 0.267188,
+    "energy": 1076.24,
+    "nonfinite": 0,
+    "signal": "bursts"
+  },
+  {
+    "variant": "tv_dense",
+    "sample_rate": 48000,
+    "frames": 672000,
+    "peak": 0.00656657,
+    "energy": 0.0312386,
+    "nonfinite": 0,
+    "signal": "impulse"
+  },
+  {
+    "variant": "tv_dense",
+    "sample_rate": 48000,
+    "frames": 672000,
+    "peak": 0.285431,
+    "energy": 1685.39,
+    "nonfinite": 0,
+    "signal": "synthetic_voice"
+  },
+  {
+    "variant": "tv_dense",
+    "sample_rate": 48000,
+    "frames": 672000,
+    "peak": 0.0514581,
+    "energy": 34.5395,
+    "nonfinite": 0,
+    "signal": "bursts"
+  },
+  {
+    "variant": "tv_oang",
+    "sample_rate": 48000,
+    "frames": 672000,
+    "peak": 0.0152427,
+    "energy": 0.0493922,
+    "nonfinite": 0,
+    "signal": "impulse"
+  },
+  {
+    "variant": "tv_oang",
+    "sample_rate": 48000,
+    "frames": 672000,
+    "peak": 0.364068,
+    "energy": 2879.7,
+    "nonfinite": 0,
+    "signal": "synthetic_voice"
+  },
+  {
+    "variant": "tv_oang",
+    "sample_rate": 48000,
+    "frames": 672000,
+    "peak": 0.0635555,
+    "energy": 61.2495,
+    "nonfinite": 0,
+    "signal": "bursts"
+  },
+  {
+    "variant": "tv_oang_smooth",
+    "sample_rate": 48000,
+    "frames": 672000,
+    "peak": 0.00790291,
+    "energy": 0.0467514,
+    "nonfinite": 0,
+    "signal": "impulse"
+  },
+  {
+    "variant": "tv_oang_smooth",
+    "sample_rate": 48000,
+    "frames": 672000,
+    "peak": 0.33183,
+    "energy": 2488.36,
+    "nonfinite": 0,
+    "signal": "synthetic_voice"
+  },
+  {
+    "variant": "tv_oang_smooth",
+    "sample_rate": 48000,
+    "frames": 672000,
+    "peak": 0.0641344,
+    "energy": 53.4151,
+    "nonfinite": 0,
+    "signal": "bursts"
+  }
+]

@@ -1,0 +1,120 @@
+{
+  "purpose": "Comparison, synthetic listening examples and manual preset settings. Not a VST build.",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 10960,
+      "sha256": "47c5a0d46e6c03aac0f6395cb207206be2c32edb6414f741e38107cb1a7d07cf"
+    },
+    {
+      "path": "listen/00_Dry_synthetic_vowels.wav",
+      "bytes": 2688044,
+      "sha256": "884ed295fc3a0d61e13854b64411735ef8fc0e5c385581e0acd4df1ae4cd3639"
+    },
+    {
+      "path": "listen/01_tv_common_matched_wet_mix.wav",
+      "bytes": 2688044,
+      "sha256": "6b68c23f4cd4fa4496fa1673f61db351e2c6102235f4a8785e7de259548862bf"
+    },
+    {
+      "path": "listen/01_tv_common_matched_wet_only.wav",
+      "bytes": 2688044,
+      "sha256": "f5c472a375e08d876a6c007ddd050147495213385e93a7617ec92d651adf6b4b"
+    },
+    {
+      "path": "listen/02_cpp_common_matched_wet_mix.wav",
+      "bytes": 2688044,
+      "sha256": "c36c0df15a79feaf52030ba4b3b8cb572c60cfbcb6ba5df38fae2780d9450aba"
+    },
+    {
+      "path": "listen/02_cpp_common_matched_wet_only.wav",
+      "bytes": 2688044,
+      "sha256": "0a8145b3f2362be3240cf68756a0bca18fc8576f6f8e6cd94da60786537de027"
+    },
+    {
+      "path": "listen/03_tv_dense_matched_wet_mix.wav",
+      "bytes": 2688044,
+      "sha256": "d1b5619d680de16c5dd9014734a0d3bf06452bb2f877ab42f3657d14ec16ae5f"
+    },
+    {
+      "path": "listen/03_tv_dense_matched_wet_only.wav",
+      "bytes": 2688044,
+      "sha256": "6e770e7f9d5234341a2ac3a0cd117686a7cb0cd2d833cef16f11b1c5fe93acce"
+    },
+    {
+      "path": "listen/04_tv_oang_matched_wet_mix.wav",
+      "bytes": 2688044,
+      "sha256": "4964787dc31846cb826af5f6b766fd23e6d2ef8d01ebb036ab072652a4235c6a"
+    },
+    {
+      "path": "listen/04_tv_oang_matched_wet_only.wav",
+      "bytes": 2688044,
+      "sha256": "f6a8932e423945fc036349d43ab18b6d7fe0613b81416f35f75f80b6dfc5dc28"
+    },
+    {
+      "path": "listen/05_tv_oang_smooth_matched_wet_mix.wav",
+      "bytes": 2688044,
+      "sha256": "5673f216c64660e35487c39253cca07fc9d7c0c70f04de9a57e5ab08e388f24e"
+    },
+    {
+      "path": "listen/05_tv_oang_smooth_matched_wet_only.wav",
+      "bytes": 2688044,
+      "sha256": "ab84e0974030860d0e0ebee9679e30e367b6bb075302cbdbefbaefd00fd91db9"
+    },
+    {
+      "path": "listen/audition.json",
+      "bytes": 1348,
+      "sha256": "c29a84d8f7d814e7beba0adc1a0ae494905e755b4f27ef5ec3384f982567947b"
+    },
+    {
+      "path": "listen/index.html",
+      "bytes": 6001,
+      "sha256": "6bb3495b54b89611eb0d104517147c0d456b6b37311cbb7848eb073ca1f271ff"
+    },
+    {
+      "path": "presets/TVerb_manual_settings.json",
+      "bytes": 3174,
+      "sha256": "2325d54683406f5907e73ac00b8ac27be7e41167a445985cbcdeda7cc6e107bb"
+    },
+    {
+      "path": "report/browser-validation.json",
+      "bytes": 506,
+      "sha256": "da547e96892a12ac66efd4cea1f305c5da6803fa0ba1e89491a6fe44e31c0c03"
+    },
+    {
+      "path": "report/comparison.png",
+      "bytes": 393788,
+      "sha256": "cc016d0f6e8e02fdc287bccceb0003efb87c90a98f6cf2fa854a44d7207288b1"
+    },
+    {
+      "path": "report/cpp-parameter-mapping.json",
+      "bytes": 1434,
+      "sha256": "00f50c959eba72e9ac4187357044f10f3f2996866b301674738dbd12ab1d442b"
+    },
+    {
+      "path": "report/listening-page.png",
+      "bytes": 267231,
+      "sha256": "a0a13e3b03e26fe5b161556a38ccc72c2deb4e525e0b4a19382fcc159d5ae21b"
+    },
+    {
+      "path": "report/metrics.json",
+      "bytes": 11623,
+      "sha256": "1d4f06a98b255811a8a7bfce8a553ad80822d22170d38a4ae3d975d89daed544"
+    },
+    {
+      "path": "report/render-results.json",
+      "bytes": 2673,
+      "sha256": "8ce5bcd75380aa75a79db95b47945435c0bcddad40ec474e1256dbcb199f0a69"
+    },
+    {
+      "path": "report/source-hashes.json",
+      "bytes": 1011,
+      "sha256": "01419d904a1fed3d2043b8ca2b89749a40f4b868ab475d57e9ee46cfd2dcedf7"
+    },
+    {
+      "path": "report/wav-validation.json",
+      "bytes": 2382,
+      "sha256": "acde0e81d818524cddb0a85adc917416d515811c7a2e1623d675cebe1d275069"
+    }
+  ]
+}

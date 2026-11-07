@@ -1,0 +1,101 @@
+[
+  {
+    "file": "00_Dry_synthetic_vowels.wav",
+    "sample_rate": 48000,
+    "frames": 672000,
+    "channels": 2,
+    "format": "PCM16",
+    "peak_dbfs": -12.76618090349794,
+    "rms": 0.04409864941836271
+  },
+  {
+    "file": "01_tv_common_matched_wet_mix.wav",
+    "sample_rate": 48000,
+    "frames": 672000,
+    "channels": 2,
+    "format": "PCM16",
+    "peak_dbfs": -10.271729445343878,
+    "rms": 0.04746595897875263
+  },
+  {
+    "file": "01_tv_common_matched_wet_only.wav",
+    "sample_rate": 48000,
+    "frames": 672000,
+    "channels": 2,
+    "format": "PCM16",
+    "peak_dbfs": -15.274181222976349,
+    "rms": 0.024254251111644528
+  },
+  {
+    "file": "02_cpp_common_matched_wet_mix.wav",
+    "sample_rate": 48000,
+    "frames": 672000,
+    "channels": 2,
+    "format": "PCM16",
+    "peak_dbfs": -9.897630003167105,
+    "rms": 0.0495497145243931
+  },
+  {
+    "file": "02_cpp_common_matched_wet_only.wav",
+    "sample_rate": 48000,
+    "frames": 672000,
+    "channels": 2,
+    "format": "PCM16",
+    "peak_dbfs": -14.301531601367367,
+    "rms": 0.024254259330512812
+  },
+  {
+    "file": "03_tv_dense_matched_wet_mix.wav",
+    "sample_rate": 48000,
+    "frames": 672000,
+    "channels": 2,
+    "format": "PCM16",
+    "peak_dbfs": -9.463002550921852,
+    "rms": 0.05132406145439684
+  },
+  {
+    "file": "03_tv_dense_matched_wet_only.wav",
+    "sample_rate": 48000,
+    "frames": 672000,
+    "channels": 2,
+    "format": "PCM16",
+    "peak_dbfs": -14.1772600126383,
+    "rms": 0.024254231437909928
+  },
+  {
+    "file": "04_tv_oang_matched_wet_mix.wav",
+    "sample_rate": 48000,
+    "frames": 672000,
+    "channels": 2,
+    "format": "PCM16",
+    "peak_dbfs": -10.252723114700892,
+    "rms": 0.04867341543701627
+  },
+  {
+    "file": "04_tv_oang_matched_wet_only.wav",
+    "sample_rate": 48000,
+    "frames": 672000,
+    "channels": 2,
+    "format": "PCM16",
+    "peak_dbfs": -14.390008721138294,
+    "rms": 0.024254245366923274
+  },
+  {
+    "file": "05_tv_oang_smooth_matched_wet_mix.wav",
+    "sample_rate": 48000,
+    "frames": 672000,
+    "channels": 2,
+    "format": "PCM16",
+    "peak_dbfs": -10.56282522457071,
+    "rms": 0.05060586508189594
+  },
+  {
+    "file": "05_tv_oang_smooth_matched_wet_only.wav",
+    "sample_rate": 48000,
+    "frames": 672000,
+    "channels": 2,
+    "format": "PCM16",
+    "peak_dbfs": -14.561206272152159,
+    "rms": 0.024254240559345875
+  }
+]
