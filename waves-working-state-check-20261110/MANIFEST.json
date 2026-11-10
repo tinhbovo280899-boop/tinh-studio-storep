@@ -1,0 +1,26 @@
+{
+  "purpose": "Metadata snapshot of Waves working after official installation/uninstallation; not a repaired installer.",
+  "validation": "35 checks passed in PowerShell 7.5.4 on Linux: AST, synthetic metadata, simulated process and report ZIP. Windows, DAW and real Waves not executed in this environment.",
+  "files": {
+    "README_VI.md": {
+      "bytes": 2950,
+      "sha256": "f2cac90ea1ac92a59bfae37cb0cc2bf78f04de0453cec68659f65ea0dc1ebccd"
+    },
+    "Thu_Thap_Waves_Dang_Chay.bat": {
+      "bytes": 1039,
+      "sha256": "f9ebcadd99cf70e93795fd51d38f3cc89498e9a4901167dcf508477fa73be6fd"
+    },
+    "Thu_Thap_Waves_Dang_Chay.ps1": {
+      "bytes": 15718,
+      "sha256": "76f0c98a5937f12e32263a0879106e47ad64f79065406df786bf1af66b3cd6cd"
+    },
+    "Validation/checks.json": {
+      "bytes": 3601,
+      "sha256": "d66b49a820ba3b608f64e200daa2e05b3415f8088932c51e19a6791a11973305"
+    },
+    "Validation/checks.log": {
+      "bytes": 2351,
+      "sha256": "542b8ffe36d9ccab8b1942fdad8e6f90e48f80daa09e7654a0cfa76248aa6473"
+    }
+  }
+}

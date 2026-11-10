@@ -1,0 +1,147 @@
+{
+  "scope": "PowerShell 7.5.4 on Linux: AST, synthetic metadata and simulated process/snapshot generation. No Windows, real DAW, Waves or registry execution.",
+  "total": 35,
+  "checks": [
+    {
+      "name": "PowerShell AST",
+      "passed": true
+    },
+    {
+      "name": "File walk skips license/device/token/cache/log and symlink fixtures",
+      "passed": true
+    },
+    {
+      "name": "IR data is listed",
+      "passed": true
+    },
+    {
+      "name": "Native architecture and content hash",
+      "passed": true
+    },
+    {
+      "name": "No hash/content collection for audio assets",
+      "passed": true
+    },
+    {
+      "name": "Find VST2 DLL, flat VST3 and nested VST3 bundle only",
+      "passed": true
+    },
+    {
+      "name": "Detect x86 WaveShell",
+      "passed": true
+    },
+    {
+      "name": "Recognize Waves Central module path as evidence",
+      "passed": true
+    },
+    {
+      "name": "Recognize loaded WaveShell outside default paths",
+      "passed": true
+    },
+    {
+      "name": "Unrelated paths are not Waves candidates",
+      "passed": true
+    },
+    {
+      "name": "Allow install path registry value",
+      "passed": true
+    },
+    {
+      "name": "Filter sensitive/non-path registry value InstallDir",
+      "passed": true
+    },
+    {
+      "name": "Filter sensitive/non-path registry value LicensePath",
+      "passed": true
+    },
+    {
+      "name": "Filter sensitive/non-path registry value SecretFolder",
+      "passed": true
+    },
+    {
+      "name": "Filter sensitive/non-path registry value PluginPath",
+      "passed": true
+    },
+    {
+      "name": "Filter sensitive/non-path registry value PluginPath",
+      "passed": true
+    },
+    {
+      "name": "Filter sensitive/non-path registry value SerialNumber",
+      "passed": true
+    },
+    {
+      "name": "Profile redaction with literal punctuation and case differences",
+      "passed": true
+    },
+    {
+      "name": "Capture actual module metadata from simulated host, exclude other session and unrelated process",
+      "passed": true
+    },
+    {
+      "name": "Generate compressed metadata report",
+      "passed": true
+    },
+    {
+      "name": "Snapshot summary counts match simulated installed state",
+      "passed": true
+    },
+    {
+      "name": "Report includes no plugin/audio/license binaries",
+      "passed": true
+    },
+    {
+      "name": "Report includes no fixture secret contents",
+      "passed": true
+    },
+    {
+      "name": "No system/network/plugin action Start-Process",
+      "passed": true
+    },
+    {
+      "name": "No system/network/plugin action Invoke-WebRequest",
+      "passed": true
+    },
+    {
+      "name": "No system/network/plugin action Invoke-RestMethod",
+      "passed": true
+    },
+    {
+      "name": "No system/network/plugin action Remove-Item",
+      "passed": true
+    },
+    {
+      "name": "No system/network/plugin action Set-ItemProperty",
+      "passed": true
+    },
+    {
+      "name": "No system/network/plugin action New-ItemProperty",
+      "passed": true
+    },
+    {
+      "name": "No system/network/plugin action Add-Type",
+      "passed": true
+    },
+    {
+      "name": "No system/network/plugin action reg",
+      "passed": true
+    },
+    {
+      "name": "No system/network/plugin action reg.exe",
+      "passed": true
+    },
+    {
+      "name": "No system/network/plugin action rundll32",
+      "passed": true
+    },
+    {
+      "name": "No system/network/plugin action taskkill",
+      "passed": true
+    },
+    {
+      "name": "Registry keys opened read-only",
+      "passed": true
+    }
+  ],
+  "failed": 0
+}

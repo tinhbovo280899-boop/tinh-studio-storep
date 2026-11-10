@@ -1,0 +1,43 @@
+PASS PowerShell AST
+PASS File walk skips license/device/token/cache/log and symlink fixtures
+PASS IR data is listed
+PASS Native architecture and content hash
+PASS No hash/content collection for audio assets
+PASS Find VST2 DLL, flat VST3 and nested VST3 bundle only
+PASS Detect x86 WaveShell
+PASS Recognize Waves Central module path as evidence
+PASS Recognize loaded WaveShell outside default paths
+PASS Unrelated paths are not Waves candidates
+PASS Allow install path registry value
+PASS Filter sensitive/non-path registry value InstallDir
+PASS Filter sensitive/non-path registry value LicensePath
+PASS Filter sensitive/non-path registry value SecretFolder
+PASS Filter sensitive/non-path registry value PluginPath
+PASS Filter sensitive/non-path registry value PluginPath
+PASS Filter sensitive/non-path registry value SerialNumber
+PASS Profile redaction with literal punctuation and case differences
+PASS Capture actual module metadata from simulated host, exclude other session and unrelated process
+[1/4] Doc module DAW dang nap. Giu plugin Waves dang mo...
+[2/4] Lap danh sach file Waves; chi bam hash file native...
+  /workspace/waves-working-state-20261110/qa/fixtures/O'Brien & Mix ! % data 音楽/Waves
+  /workspace/waves-working-state-20261110/qa/fixtures/O'Brien & Mix ! % data 音楽/VST/WaveShell1-VST3 16.7_x64.vst3
+[3/4] Doc mot so duong dan registry va runtime...
+[4/4] Nen bao cao metadata...
+Da tao: /workspace/waves-working-state-20261110/delivery/KetQua_Waves_20261110_040152_97c43c.zip
+Chi gui ZIP KetQua_Waves_*.zip; khong can gui cac file DLL/VST3.
+PASS Generate compressed metadata report
+PASS Snapshot summary counts match simulated installed state
+PASS Report includes no plugin/audio/license binaries
+PASS Report includes no fixture secret contents
+PASS No system/network/plugin action Start-Process
+PASS No system/network/plugin action Invoke-WebRequest
+PASS No system/network/plugin action Invoke-RestMethod
+PASS No system/network/plugin action Remove-Item
+PASS No system/network/plugin action Set-ItemProperty
+PASS No system/network/plugin action New-ItemProperty
+PASS No system/network/plugin action Add-Type
+PASS No system/network/plugin action reg
+PASS No system/network/plugin action reg.exe
+PASS No system/network/plugin action rundll32
+PASS No system/network/plugin action taskkill
+PASS Registry keys opened read-only
