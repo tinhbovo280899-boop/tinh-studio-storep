@@ -1,0 +1,151 @@
+{
+  "scope": "PowerShell 7.5.4 on Linux, AST and metadata fixtures only. No Windows CMD, PowerShell 5.1, Cubase or real Waves execution.",
+  "failed": 0,
+  "total": 36,
+  "checks": [
+    {
+      "name": "PowerShell AST parses",
+      "passed": true
+    },
+    {
+      "name": "Architecture x64",
+      "passed": true
+    },
+    {
+      "name": "x64 flag x64",
+      "passed": true
+    },
+    {
+      "name": "Architecture x86",
+      "passed": true
+    },
+    {
+      "name": "x64 flag x86",
+      "passed": true
+    },
+    {
+      "name": "Architecture arm64",
+      "passed": true
+    },
+    {
+      "name": "x64 flag arm64",
+      "passed": true
+    },
+    {
+      "name": "Reject corrupt or missing header empty",
+      "passed": true
+    },
+    {
+      "name": "Reject corrupt or missing header not-pe",
+      "passed": true
+    },
+    {
+      "name": "Reject corrupt or missing header negative",
+      "passed": true
+    },
+    {
+      "name": "Reject corrupt or missing header oversized",
+      "passed": true
+    },
+    {
+      "name": "Reject corrupt or missing header truncated",
+      "passed": true
+    },
+    {
+      "name": "Reject corrupt or missing header missing",
+      "passed": true
+    },
+    {
+      "name": "Wrong optional magic is not a valid x64 header",
+      "passed": true
+    },
+    {
+      "name": "Find flat and nested bundle; exclude junction and unrelated bundle",
+      "passed": true
+    },
+    {
+      "name": "Read module WaveShell2-VST3 16.0_x64.vst3",
+      "passed": true
+    },
+    {
+      "name": "Read module WaveShell1-VST3 16.0_x64.vst3",
+      "passed": true
+    },
+    {
+      "name": "Missing VST3 root handled",
+      "passed": true
+    },
+    {
+      "name": "Scan filtering and file size cap",
+      "passed": true
+    },
+    {
+      "name": "Redact literal profile with punctuation",
+      "passed": true
+    },
+    {
+      "name": "Redact profile case-insensitively",
+      "passed": true
+    },
+    {
+      "name": "Capture relevant part of long minified XML",
+      "passed": true
+    },
+    {
+      "name": "Bound log excerpts",
+      "passed": true
+    },
+    {
+      "name": "Empty log handled",
+      "passed": true
+    },
+    {
+      "name": "Generate exactly one TXT report in simulated install",
+      "passed": true
+    },
+    {
+      "name": "Report captures module, plugin bundle and Cubase blocklist mention",
+      "passed": true
+    },
+    {
+      "name": "No system/network/plugin action Start-Process",
+      "passed": true
+    },
+    {
+      "name": "No system/network/plugin action Invoke-WebRequest",
+      "passed": true
+    },
+    {
+      "name": "No system/network/plugin action Invoke-RestMethod",
+      "passed": true
+    },
+    {
+      "name": "No system/network/plugin action Remove-Item",
+      "passed": true
+    },
+    {
+      "name": "No system/network/plugin action Set-ItemProperty",
+      "passed": true
+    },
+    {
+      "name": "No system/network/plugin action Add-Type",
+      "passed": true
+    },
+    {
+      "name": "No system/network/plugin action reg",
+      "passed": true
+    },
+    {
+      "name": "No system/network/plugin action reg.exe",
+      "passed": true
+    },
+    {
+      "name": "No system/network/plugin action rundll32",
+      "passed": true
+    },
+    {
+      "name": "No system/network/plugin action taskkill",
+      "passed": true
+    }
+  ]
+}

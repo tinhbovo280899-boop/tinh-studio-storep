@@ -1,0 +1,40 @@
+PASS PowerShell AST parses
+PASS Architecture x64
+PASS x64 flag x64
+PASS Architecture x86
+PASS x64 flag x86
+PASS Architecture arm64
+PASS x64 flag arm64
+PASS Reject corrupt or missing header empty
+PASS Reject corrupt or missing header not-pe
+PASS Reject corrupt or missing header negative
+PASS Reject corrupt or missing header oversized
+PASS Reject corrupt or missing header truncated
+PASS Reject corrupt or missing header missing
+PASS Wrong optional magic is not a valid x64 header
+PASS Find flat and nested bundle; exclude junction and unrelated bundle
+PASS Read module WaveShell2-VST3 16.0_x64.vst3
+PASS Read module WaveShell1-VST3 16.0_x64.vst3
+PASS Missing VST3 root handled
+PASS Scan filtering and file size cap
+PASS Redact literal profile with punctuation
+PASS Redact profile case-insensitively
+PASS Capture relevant part of long minified XML
+PASS Bound log excerpts
+PASS Empty log handled
+
+Da tao file ket qua:
+/workspace/waves-cubase-diagnostics-20261110/delivery/KetQua_Waves_Cubase_20261110_020541_86648e.txt
+Gui file TXT nay cho em de doi chieu. Cong cu chua sua bo cai.
+PASS Generate exactly one TXT report in simulated install
+PASS Report captures module, plugin bundle and Cubase blocklist mention
+PASS No system/network/plugin action Start-Process
+PASS No system/network/plugin action Invoke-WebRequest
+PASS No system/network/plugin action Invoke-RestMethod
+PASS No system/network/plugin action Remove-Item
+PASS No system/network/plugin action Set-ItemProperty
+PASS No system/network/plugin action Add-Type
+PASS No system/network/plugin action reg
+PASS No system/network/plugin action reg.exe
+PASS No system/network/plugin action rundll32
+PASS No system/network/plugin action taskkill

@@ -1,0 +1,26 @@
+{
+  "purpose": "Read-only diagnostic for Waves absent from Cubase after installation; not a repaired installer.",
+  "validation": "36 passed: PowerShell 7.5.4 AST, metadata fixtures and simulated report generation on Linux. Windows/Cubase/Waves not executed.",
+  "files": {
+    "Kiem_Tra_Waves_Cubase.bat": {
+      "bytes": 1077,
+      "sha256": "92c57fc0bd12e3ce6f729c66eab5ecfa6ca66cdb2d1e77df0211aadbb7d46439"
+    },
+    "Kiem_Tra_Waves_Cubase.ps1": {
+      "bytes": 12954,
+      "sha256": "48e55e5d1831a86b2fec803084e5916bc39a720cae9591bb17658b73aedc0bf1"
+    },
+    "README_VI.md": {
+      "bytes": 2654,
+      "sha256": "be793af282ef4f3664d8930de76615afdc0b77cc73a5e6c02f3167ac3f91e842"
+    },
+    "Validation/checks.json": {
+      "bytes": 3356,
+      "sha256": "6bff22f0ddc3aa1479b20191c32c87d9a04761cdc1cfa5a975ec405516d90216"
+    },
+    "Validation/checks.log": {
+      "bytes": 1699,
+      "sha256": "4bcf05a6cb5e3d3cb2437f48c3ca2e15ed58e962ee83851ef0c396422be3b1ac"
+    }
+  }
+}
