@@ -1,0 +1,135 @@
+{
+  "checks": [
+    {
+      "name": "Windows CRLF line endings",
+      "passed": true
+    },
+    {
+      "name": "No Server-service-dependent admin check",
+      "passed": true
+    },
+    {
+      "name": "Token check and UAC request present",
+      "passed": true
+    },
+    {
+      "name": "Elevation loop guard",
+      "passed": true
+    },
+    {
+      "name": "Exclamation marks in paths preserved by batch mode",
+      "passed": true
+    },
+    {
+      "name": "All GOTO destinations exist",
+      "passed": true
+    },
+    {
+      "name": "PowerShell AST line 12",
+      "passed": true
+    },
+    {
+      "name": "PowerShell AST line 18",
+      "passed": true
+    },
+    {
+      "name": "PowerShell AST line 23",
+      "passed": true
+    },
+    {
+      "name": "PowerShell AST line 38",
+      "passed": true
+    },
+    {
+      "name": "PowerShell AST line 53",
+      "passed": true
+    },
+    {
+      "name": "PowerShell AST line 95",
+      "passed": true
+    },
+    {
+      "name": "PowerShell AST line 100",
+      "passed": true
+    },
+    {
+      "name": "ISS header rendered",
+      "passed": true
+    },
+    {
+      "name": "ISS DiskSpanning",
+      "passed": true
+    },
+    {
+      "name": "ISS DiskSliceSize",
+      "passed": true
+    },
+    {
+      "name": "ISS SlicesPerDisk",
+      "passed": true
+    },
+    {
+      "name": "ISS SolidCompression",
+      "passed": true
+    },
+    {
+      "name": "ISS PrivilegesRequired",
+      "passed": true
+    },
+    {
+      "name": "ISS PrivilegesRequiredOverridesAllowed",
+      "passed": true
+    },
+    {
+      "name": "Service stop moved into pre-copy callback",
+      "passed": true
+    },
+    {
+      "name": "No post-copy taskkill action",
+      "passed": true
+    },
+    {
+      "name": "Compiler nonzero exit blocks success",
+      "passed": true
+    },
+    {
+      "name": "External BIN output required for success",
+      "passed": true
+    },
+    {
+      "name": "Copy command accepts apostrophe, ampersand, exclamation, percent and Unicode path",
+      "passed": true
+    },
+    {
+      "name": "Flat WaveShell preserved",
+      "passed": true
+    },
+    {
+      "name": "Bundle member Contents/x86_64-win/WaveShell2.vst3",
+      "passed": true
+    },
+    {
+      "name": "Bundle member Contents/Resources/moduleinfo.json",
+      "passed": true
+    },
+    {
+      "name": "Unrelated plugin excluded",
+      "passed": true
+    },
+    {
+      "name": "Missing required x64 WaveShell fails",
+      "passed": true
+    },
+    {
+      "name": "Empty bundle fails",
+      "passed": true
+    },
+    {
+      "name": "Optional missing x86 source is allowed",
+      "passed": true
+    }
+  ],
+  "total": 32,
+  "failures": 0,
+  "scope": "PowerShell 7.5 AST + actual file-copy fixtures on Linux; static CMD/ISS checks. No Windows UAC, CMD, Inno compiler, real Waves, VC_redist or Patch.exe execution."
+}

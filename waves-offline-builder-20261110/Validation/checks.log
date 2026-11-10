@@ -1,0 +1,33 @@
+PASS Windows CRLF line endings
+PASS No Server-service-dependent admin check
+PASS Token check and UAC request present
+PASS Elevation loop guard
+PASS Exclamation marks in paths preserved by batch mode
+PASS All GOTO destinations exist
+PASS PowerShell AST line 12
+PASS PowerShell AST line 18
+PASS PowerShell AST line 23
+PASS PowerShell AST line 38
+PASS PowerShell AST line 53
+PASS PowerShell AST line 95
+PASS PowerShell AST line 100
+PASS ISS header rendered
+PASS ISS DiskSpanning
+PASS ISS DiskSliceSize
+PASS ISS SlicesPerDisk
+PASS ISS SolidCompression
+PASS ISS PrivilegesRequired
+PASS ISS PrivilegesRequiredOverridesAllowed
+PASS Service stop moved into pre-copy callback
+PASS No post-copy taskkill action
+PASS Compiler nonzero exit blocks success
+PASS External BIN output required for success
+PASS Copy command accepts apostrophe, ampersand, exclamation, percent and Unicode path
+PASS Flat WaveShell preserved
+PASS Bundle member Contents/x86_64-win/WaveShell2.vst3
+PASS Bundle member Contents/Resources/moduleinfo.json
+PASS Unrelated plugin excluded
+PASS Missing required x64 WaveShell fails
+PASS Empty bundle fails
+PASS Optional missing x86 source is allowed
+TOTAL 32 FAILED 0

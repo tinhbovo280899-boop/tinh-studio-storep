@@ -1,0 +1,4 @@
+https://jrsoftware.org/ishelp/topic_setup_diskspanning.htm
+https://jrsoftware.org/ishelp/topic_setup_diskslicesize.htm
+https://jrsoftware.org/ishelp/topic_setup_privilegesrequired.htm
+https://jrsoftware.org/ishelp/topic_setup_privilegesrequiredoverridesallowed.htm

@@ -1,0 +1,37 @@
+{
+  "purpose": "Modified installer-builder script; contains no Waves plugins, redistributable executables or Patch.exe.",
+  "original_bat_sha256": "eb7ad98bd5a82ab22b0c2c179b9031137dc8617adfc1cbc99f7f0f9d3a35bc37",
+  "validation_scope": "PowerShell 7.5 AST + actual file-copy fixtures on Linux; static CMD/ISS checks. No Windows UAC, CMD, Inno compiler, real Waves, VC_redist or Patch.exe execution.",
+  "files": [
+    {
+      "path": "README_VI.md",
+      "bytes": 5077,
+      "sha256": "cded1e953e0f9b4aa5cdc6898c752cc0fe269b891529b03b5e216edd7f9f3e24"
+    },
+    {
+      "path": "Tao_Bo_Cai_Waves_Pro_EXE_BIN.bat",
+      "bytes": 15173,
+      "sha256": "2b43d99a1831b0c47a94295672d0f171f893c1e9cd7c3a9d9a70a0c65577a579"
+    },
+    {
+      "path": "Validation/Generated_Example.iss",
+      "bytes": 3501,
+      "sha256": "fc9a3887177555f96d6f8db1828b9d412ebbc46c5d12ea1fa56ae323945a7db0"
+    },
+    {
+      "path": "Validation/checks.json",
+      "bytes": 2856,
+      "sha256": "bc0f023d6837175c0a53cdb8db3e87c30bac618f45af1c7dff25d99fee230b0c"
+    },
+    {
+      "path": "Validation/checks.log",
+      "bytes": 1174,
+      "sha256": "fc473209109b38e19852b1efafdf5b6e9a43947afa7d56cf2c934519e49148fb"
+    },
+    {
+      "path": "Validation/sources.txt",
+      "bytes": 265,
+      "sha256": "4c2c9312521b11c16ab7e615e32c7a97f3a00e3f9d2533cc37f9391a3057a604"
+    }
+  ]
+}
